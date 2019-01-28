@@ -1,0 +1,3089 @@
+# Copyright (C) 2018 WP Travel Engine
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine 1.6.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-travel-engine\n"
+"POT-Creation-Date: 2018-09-09 10:05+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-09-18 11:28+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+#: EDD_SL_Plugin_Updater.php:199
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Es gibt eine neue Version von %1$s. %2$sVersion %3$s Details%4$s anzeigen."
+
+#: EDD_SL_Plugin_Updater.php:207
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Es gibt eine neue Version von %1$s. %2$sVersion %3$s Details%4$s anzeigen "
+"oder %5$sjetzt aktualisieren%6$s."
+
+#: EDD_SL_Plugin_Updater.php:397
+msgid "You do not have permission to install plugin updates"
+msgstr "Du hast nicht die Rechte um Plugins zu installieren"
+
+#: EDD_SL_Plugin_Updater.php:397 includes/class-wpte-license-handler.php:304
+msgid "Error"
+msgstr "Fehler"
+
+#: admin/class-wp-travel-engine-admin.php:110
+msgid ""
+"Deleting the tab will also delete all the information associated with the "
+"tab. Are you sure you want to delete it?"
+msgstr ""
+"Löschen der Registerkarte werden auch alle Informationen im Zusammenhang mit "
+"der Registerkarte \". Sind Sie sicher, dass Sie es löschen möchten?"
+
+#: admin/class-wp-travel-engine-admin.php:111
+msgid ""
+"Deleting the Trip Fact will also delete the information associated with it. "
+"Are you sure you want to delete it?"
+msgstr ""
+"Löschen der Reise Tatsache werden auch die zugehörigen Informationen. Sind "
+"Sie sicher, dass Sie es löschen möchten?"
+
+#: admin/class-wp-travel-engine-admin.php:112
+msgid ""
+"Deleting this will also delete the information associated with it. Are you "
+"sure you want to delete it?"
+msgstr ""
+"Wenn Sie dies löschen, werden auch die damit verbundenen Informationen "
+"gelöscht. Sind Sie sicher, dass Sie es löschen möchten?"
+
+#: admin/class-wp-travel-engine-admin.php:151
+msgid "Add New Trip"
+msgstr "Neue Reise hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:152
+msgid "New Trip"
+msgstr "Neue Reise"
+
+#: admin/class-wp-travel-engine-admin.php:153
+msgid "Edit Trip"
+msgstr "Reise bearbeiten"
+
+#: admin/class-wp-travel-engine-admin.php:154
+msgid "View Trip"
+msgstr "Reise anzeigen"
+
+#: admin/class-wp-travel-engine-admin.php:155
+msgid "All Trips"
+msgstr "Alle Reisen"
+
+#: admin/class-wp-travel-engine-admin.php:156
+msgid "Search Trips"
+msgstr "Reise suchen"
+
+#: admin/class-wp-travel-engine-admin.php:157
+msgid "Parent Trips:"
+msgstr "Übergeordnete Reisen"
+
+#: admin/class-wp-travel-engine-admin.php:158
+msgid "No Trips found."
+msgstr "Keine Reisen gefunden."
+
+#: admin/class-wp-travel-engine-admin.php:159
+msgid "No Trips found in Trash."
+msgstr "Keine Reisen im Papierkorb gefunden."
+
+#: admin/class-wp-travel-engine-admin.php:164
+#: admin/class-wp-travel-engine-admin.php:208
+#: admin/class-wp-travel-engine-admin.php:255
+#: admin/class-wp-travel-engine-admin.php:303
+msgid "Description."
+msgstr "Beschreibung."
+
+#: admin/class-wp-travel-engine-admin.php:195
+msgid "Add New Enquiry"
+msgstr "Neue Anfrage hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:196
+msgid "New Enquiry"
+msgstr "Neue Anfrage"
+
+#: admin/class-wp-travel-engine-admin.php:197
+msgid "Edit Enquiry"
+msgstr "Anfrage bearbeiten"
+
+#: admin/class-wp-travel-engine-admin.php:198
+msgid "View Enquiry"
+msgstr "Anfrage anzeigen"
+
+#: admin/class-wp-travel-engine-admin.php:199
+msgid "All Enquiries"
+msgstr "Alle Anfragen"
+
+#: admin/class-wp-travel-engine-admin.php:200
+msgid "Search Enquiries"
+msgstr "Suche Anfragen"
+
+#: admin/class-wp-travel-engine-admin.php:201
+msgid "Parent Enquiries:"
+msgstr "Übergeordneten Anfragen:"
+
+#: admin/class-wp-travel-engine-admin.php:202
+msgid "No Enquiries found."
+msgstr "Keine Anfragen gefunden."
+
+#: admin/class-wp-travel-engine-admin.php:203
+msgid "No Enquiries found in Trash."
+msgstr "Keine Anfragen im Papierkorb gefunden."
+
+#: admin/class-wp-travel-engine-admin.php:242
+msgid "Add New Booking"
+msgstr "Neue Buchung hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:243
+msgid "New Booking"
+msgstr "Neue Buchung"
+
+#: admin/class-wp-travel-engine-admin.php:244
+msgid "Edit Booking"
+msgstr "Buchung bearbeiten"
+
+#: admin/class-wp-travel-engine-admin.php:246
+msgid "All Bookings"
+msgstr "Alle Buchungen"
+
+#: admin/class-wp-travel-engine-admin.php:247
+msgid "Search Bookings"
+msgstr "Buchung durchsuchen"
+
+#: admin/class-wp-travel-engine-admin.php:248
+msgid "Parent Bookings:"
+msgstr "Übergeordneten Buchungen:"
+
+#: admin/class-wp-travel-engine-admin.php:249
+msgid "No Bookings found."
+msgstr "Keine Buchungen gefunden"
+
+#: admin/class-wp-travel-engine-admin.php:250
+msgid "No Bookings found in Trash."
+msgstr "Es wurden keine Buchungen im Papierkorb gefunden"
+
+#: admin/class-wp-travel-engine-admin.php:290
+msgid "Add New Customer"
+msgstr "Neuen Kunden hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:291
+msgid "New Customer"
+msgstr "Neuer Kunde"
+
+#: admin/class-wp-travel-engine-admin.php:292
+msgid "Edit Customer"
+msgstr "Kunde bearbeiten"
+
+#: admin/class-wp-travel-engine-admin.php:294
+msgid "All Customers"
+msgstr "Alle Kunden"
+
+#: admin/class-wp-travel-engine-admin.php:295
+msgid "Search Customers"
+msgstr "Kunden suchen"
+
+#: admin/class-wp-travel-engine-admin.php:296
+msgid "Parent Customers:"
+msgstr "Übergeordnete Kunden"
+
+#: admin/class-wp-travel-engine-admin.php:297
+msgid "No Customers found."
+msgstr "Keine Kunden gefunden."
+
+#: admin/class-wp-travel-engine-admin.php:298
+msgid "No Customers found in Trash."
+msgstr "Keine Kunden im Papierkorb gefunden."
+
+#: admin/class-wp-travel-engine-admin.php:338
+msgid "Trip ID"
+msgstr "Reise ID"
+
+#: admin/class-wp-travel-engine-admin.php:339
+msgid "Trip Name"
+msgstr "Name der Reise"
+
+#: admin/class-wp-travel-engine-admin.php:340
+msgid "Travelers"
+msgstr "Reisende"
+
+#: admin/class-wp-travel-engine-admin.php:341
+msgid "Total Paid"
+msgstr "Bezahlte Summe"
+
+#: admin/class-wp-travel-engine-admin.php:342
+#: includes/class-wp-travel-engine-thank-you.php:185
+msgid "Remaining Payment"
+msgstr "Verbleibende Zahlung"
+
+#: admin/class-wp-travel-engine-admin.php:343
+msgid "Total Cost"
+msgstr "Gesamtpreis"
+
+#: admin/class-wp-travel-engine-admin.php:446
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: admin/class-wp-travel-engine-admin.php:474
+msgid "Customer ID"
+msgstr "Kunden ID"
+
+#: admin/class-wp-travel-engine-admin.php:475 admin/meta-parts/enquiry.php:24
+#: includes/backend/booking/booking-details.php:66
+#: includes/backend/booking/booking.php:77
+#: includes/class-wp-travel-engine-functions.php:1047
+#: includes/privacy-functions.php:121 includes/privacy-functions.php:185
+#: includes/privacy-functions.php:238
+msgid "Country"
+msgstr "Land"
+
+#: admin/class-wp-travel-engine-admin.php:476
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: admin/class-wp-travel-engine-admin.php:477
+msgid "Total Spent"
+msgstr "Gesamtausgabe"
+
+#: admin/class-wp-travel-engine-admin.php:478
+msgid "Created"
+msgstr "Erstellungsdatum"
+
+#: admin/class-wp-travel-engine-admin.php:546
+msgid "Search Destinations"
+msgstr "Reiseziele suchen"
+
+#: admin/class-wp-travel-engine-admin.php:547
+msgid "All Destinations"
+msgstr "Alle Reiseziele"
+
+#: admin/class-wp-travel-engine-admin.php:548
+#: admin/class-wp-travel-engine-admin.php:549
+msgid "Parent Destinations"
+msgstr "Übergeordnete Ziele"
+
+#: admin/class-wp-travel-engine-admin.php:550
+msgid "Edit Destinations"
+msgstr "Ziele bearbeiten"
+
+#: admin/class-wp-travel-engine-admin.php:551
+msgid "Update Destinations"
+msgstr "Ziele bearbeiten"
+
+#: admin/class-wp-travel-engine-admin.php:552
+msgid "Add New Destinations"
+msgstr "Neue Reiseziele hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:553
+msgid "New Destinations Name"
+msgstr "Reisezielname"
+
+#: admin/class-wp-travel-engine-admin.php:554
+msgid "Destinations"
+msgstr "Reiseziele"
+
+#: admin/class-wp-travel-engine-admin.php:579
+msgid "Search Activities"
+msgstr "Suche Aktivitäten"
+
+#: admin/class-wp-travel-engine-admin.php:580
+msgid "All Activities"
+msgstr "Alle Aktivitäten"
+
+#: admin/class-wp-travel-engine-admin.php:581
+#: admin/class-wp-travel-engine-admin.php:582
+msgid "Parent Activities"
+msgstr "Übergeordnete Aktivitäten"
+
+#: admin/class-wp-travel-engine-admin.php:583
+msgid "Edit Activities"
+msgstr "Aktivitäten bearbeiten"
+
+#: admin/class-wp-travel-engine-admin.php:584
+msgid "Update Activities"
+msgstr "Aktivitäten aktualisieren"
+
+#: admin/class-wp-travel-engine-admin.php:585
+msgid "Add New Activities"
+msgstr "Aktivität hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:586
+msgid "New Activities Name"
+msgstr "Aktivitätsbezeichnung"
+
+#: admin/class-wp-travel-engine-admin.php:587
+msgid "Activities"
+msgstr "Aktivitäten"
+
+#: admin/class-wp-travel-engine-admin.php:613
+msgid "Search Trip Type"
+msgstr "Reiseart suchen"
+
+#: admin/class-wp-travel-engine-admin.php:614
+msgid "All Trip Type"
+msgstr "Alle Reisearten"
+
+#: admin/class-wp-travel-engine-admin.php:615
+#: admin/class-wp-travel-engine-admin.php:616
+msgid "Parent Trip Type"
+msgstr "Übergeordnete Reiseart"
+
+#: admin/class-wp-travel-engine-admin.php:617
+msgid "Edit Trip Type"
+msgstr "Reiseart bearbeiten"
+
+#: admin/class-wp-travel-engine-admin.php:618
+msgid "Update Trip Type"
+msgstr "Reiseart aktualisieren"
+
+#: admin/class-wp-travel-engine-admin.php:619
+msgid "Add New Trip Type"
+msgstr "Neue Reiseart hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:620
+msgid "New Trip Type Name"
+msgstr "Reiseartbezeichnung"
+
+#: admin/class-wp-travel-engine-admin.php:621
+msgid "Trip Type"
+msgstr "Reiseart"
+
+#: admin/class-wp-travel-engine-admin.php:687
+#: includes/backend/settings/sub-tabs/tabs_settings.php:37
+msgid "Tab Name:"
+msgstr "Tab Name"
+
+#: admin/class-wp-travel-engine-admin.php:689
+#: includes/backend/settings/sub-tabs/tabs_settings.php:40
+msgid "Tab Name is the label that appears on each of the tabs."
+msgstr "Name ist die Bezeichnung, die auf den Registerkarten angezeigt wird."
+
+#: admin/class-wp-travel-engine-admin.php:692
+#: includes/backend/settings/sub-tabs/tabs_settings.php:43
+msgid "Tab Icon:"
+msgstr "Registerkartensymbol:"
+
+#: admin/class-wp-travel-engine-admin.php:694
+msgid ""
+"Choose icon for the tab. Default icon will be shown if no icon is selected."
+msgstr ""
+"Wählen Sie das Symbol für die Registerkarte. Das Standardsymbol wird "
+"angezeigt, wenn kein Symbol ausgewählt ist."
+
+#: admin/class-wp-travel-engine-admin.php:785
+#: includes/backend/settings/sub-tabs/trip_info.php:18
+msgid "Field Name:"
+msgstr "Feldname:"
+
+#: admin/class-wp-travel-engine-admin.php:787
+msgid "Field ID is the unique id of the input field."
+msgstr "Feld ID ist die eindeutige ID des Eingabefeldes."
+
+#: admin/class-wp-travel-engine-admin.php:790
+#: includes/backend/settings/sub-tabs/trip_info.php:23
+msgid "Field Icon:"
+msgstr "Feld Icon:"
+
+#: admin/class-wp-travel-engine-admin.php:792
+#: includes/backend/settings/sub-tabs/tabs_settings.php:46
+#: includes/backend/settings/sub-tabs/trip_info.php:25
+msgid "Choose icon for the tab. Leave blank if no icon is required."
+msgstr ""
+"Wählen Sie Symbol für die Registerkarte \"lassen Sie leer, wenn kein Symbol "
+"erforderlich ist."
+
+#: admin/class-wp-travel-engine-admin.php:795
+#: includes/backend/settings/sub-tabs/trip_info.php:28
+msgid "Field Type:"
+msgstr "Feldtyp:"
+
+#: admin/class-wp-travel-engine-admin.php:796
+#: admin/class-wp-travel-engine-admin.php:855
+#: admin/meta-parts/trip-facts.php:55
+#: includes/backend/booking/booking-details.php:67
+#: includes/backend/booking/booking.php:78
+#: includes/backend/booking/customer.php:36 includes/backend/booking/pay.php:26
+#: includes/backend/settings/sub-tabs/trip_info.php:29
+#: includes/class-wp-travel-engine-confirmation.php:482
+#: includes/templates/order-form-template.php:265
+#: public/class-wp-travel-engine-public.php:999
+#: public/class-wp-travel-engine-public.php:1069
+msgid "Choose a field type&hellip;"
+msgstr "Wählen Sie einen Feldtyp &hellip;"
+
+#: admin/class-wp-travel-engine-admin.php:797
+#: admin/class-wp-travel-engine-admin.php:856
+#: admin/meta-parts/trip-facts.php:56
+#: includes/backend/settings/sub-tabs/trip_info.php:30
+msgid "Choose input type&hellip;"
+msgstr "Wählen Sie einen Eingabetyp &hellip;"
+
+#: admin/class-wp-travel-engine-admin.php:806
+#: includes/backend/settings/sub-tabs/trip_info.php:40
+msgid "Field type is the input types."
+msgstr "Feldtyp sind der Eingabetyp."
+
+#: admin/class-wp-travel-engine-admin.php:809
+#: includes/backend/settings/sub-tabs/trip_info.php:43
+msgid "Select Options: "
+msgstr "Einstellungen"
+
+#: admin/class-wp-travel-engine-admin.php:809
+#: includes/backend/settings/sub-tabs/trip_info.php:44
+msgid "Enter drop-down values separated by commas"
+msgstr "Geben Sie die Dropdown-Werte ein, durch Kommas getrennt"
+
+#: admin/class-wp-travel-engine-admin.php:812
+#: includes/backend/settings/sub-tabs/trip_info.php:47
+msgid "Field Placeholder:"
+msgstr "Platzhalter:"
+
+#: admin/class-wp-travel-engine-admin.php:814
+#: includes/backend/settings/sub-tabs/trip_info.php:49
+msgid "Placeholder for the input field."
+msgstr "Platzhalter für das Eingabefeld."
+
+#: admin/class-wp-travel-engine-admin.php:866
+#: admin/meta-parts/trip-facts.php:69 admin/meta-parts/trip-price.php:42
+msgid "Number of days"
+msgstr "Anzahl der Tage"
+
+#: admin/class-wp-travel-engine-admin.php:925
+msgid "Destination Template"
+msgstr "Ziel-Vorlage"
+
+#: admin/class-wp-travel-engine-admin.php:926
+msgid "Activities Template"
+msgstr "Aktivitäten-Vorlage"
+
+#: admin/class-wp-travel-engine-admin.php:927
+msgid "Trip Types Template"
+msgstr "Reisearten Vorlage"
+
+#: admin/class-wp-travel-engine-admin.php:928
+msgid "Trip Listing Template"
+msgstr "Reiselisten Vorlage"
+
+#: admin/class-wp-travel-engine-admin.php:955
+msgid "Day"
+msgstr "Tag"
+
+#: admin/class-wp-travel-engine-admin.php:958 admin/meta-parts/tabs.php:100
+msgid "Itinerary Title:"
+msgstr "Reiseroute Titel:"
+
+#: admin/class-wp-travel-engine-admin.php:962 admin/meta-parts/tabs.php:104
+msgid "Itinerary Content:"
+msgstr "Reiseroute Inhalt:"
+
+#: admin/class-wp-travel-engine-admin.php:989
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class-wp-travel-engine-admin.php:992 admin/meta-parts/tabs.php:173
+msgid "Question:"
+msgstr "Frage:"
+
+#: admin/class-wp-travel-engine-admin.php:996 admin/meta-parts/tabs.php:177
+msgid "Answer:"
+msgstr "Antwort:"
+
+#: admin/class-wp-travel-engine-admin.php:1021
+msgid ""
+"Please put your valid %1$s Merchant account ID in %2$s: Trips > Settings > "
+"Payment > PayPal ID %3$s. This is the ID where all the payments will be "
+"accepted."
+msgstr ""
+"Bitte geben Sie Ihre gültige%1$s Merchant Account ID in%2$s ein: Reisen> "
+"Einstellungen> Zahlung> PayPal ID%3$s. Dies ist die ID, unter der alle "
+"Zahlungen akzeptiert werden."
+
+#: admin/class-wp-travel-engine-admin.php:1046
+msgid "Thank you for using %1$s. Please rate us on %2$s."
+msgstr ""
+"Vielen Dank für die Verwendung von %1$s. Bitte bewerten Sie uns auf %2$s."
+
+#: admin/class-wp-travel-engine-admin.php:1070
+msgid ""
+"WP Travel Engine is %1$s GDPR %2$scompatible now. Please go to %3$s Settings "
+"> Privacy %4$s to select Privacy Policy page."
+msgstr ""
+"WP Travel Engine ist nun%1$s DSGVO %2$s kompatibel. Bitte gehen Sie zu %3$s "
+"Einstellungen> Datenschutz %4$s, um die Seite Datenschutz zu wählen."
+
+#: admin/class-wp-travel-engine-admin.php:1093
+msgid "PayPal ID : "
+msgstr "PayPal-ID:"
+
+#: admin/class-wp-travel-engine-admin.php:1095
+msgid ""
+"Enter a valid Merchant account ID (strongly recommend) or PayPal account "
+"email address. All payments will go to this account."
+msgstr ""
+"Geben Sie eine gültige Händler-Konto-ID (sehr empfohlen!) oder die PayPal-"
+"Konto E-Mail-Adresse ein. Alle Zahlungen werden auf dieses Konto gehen."
+
+#: admin/class-wp-travel-engine-admin.php:1109
+msgid "Paypal Payment Details"
+msgstr "PayPal-Zahlungs-Details"
+
+#: admin/class-wp-travel-engine-tabs.php:23
+msgid "Trip Data"
+msgstr "Reisedaten"
+
+#: admin/class-wp-travel-engine-tabs.php:37
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/class-wp-travel-engine-tabs.php:40
+#: includes/class-wp-travel-engine-order-meta.php:119
+msgid "Trip Info"
+msgstr "Reise Info"
+
+#: admin/class-wp-travel-engine-tabs.php:90
+msgid "Trip Tabs"
+msgstr "Reise Tabs"
+
+#: admin/class-wp-travel-engine-tabs.php:135
+msgid "Enquiry details"
+msgstr "Anfragedetails"
+
+#: admin/meta-parts/enquiry.php:6
+msgid "Package Name"
+msgstr "Paketname"
+
+#: admin/meta-parts/enquiry.php:15 includes/privacy-functions.php:113
+msgid "Name"
+msgstr "Name"
+
+#: admin/meta-parts/enquiry.php:19
+#: includes/backend/booking/booking-details.php:48
+#: includes/backend/booking/booking.php:59 includes/privacy-functions.php:117
+#: includes/privacy-functions.php:173 includes/privacy-functions.php:226
+msgid "Email"
+msgstr "E-Mail"
+
+#: admin/meta-parts/enquiry.php:29 includes/privacy-functions.php:125
+msgid "Contact Number"
+msgstr "Kontaktnummer"
+
+#: admin/meta-parts/enquiry.php:34 includes/privacy-functions.php:129
+msgid "Number of Adults"
+msgstr "Anzahl Erwachsene "
+
+#: admin/meta-parts/enquiry.php:39 includes/privacy-functions.php:133
+msgid "Number of Children"
+msgstr "Anzahl Kinder"
+
+#: admin/meta-parts/enquiry.php:44 includes/privacy-functions.php:137
+msgid "Message"
+msgstr "Nachricht"
+
+#: admin/meta-parts/tabs.php:81
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:396
+msgid "Expand/Close"
+msgstr "Erweitern/schliessen"
+
+#: admin/meta-parts/tabs.php:97
+msgid "Day-"
+msgstr "Tag-"
+
+#: admin/meta-parts/tabs.php:115
+msgid "Add Itinerary"
+msgstr "Reiseplan hinzufügen"
+
+#: admin/meta-parts/tabs.php:116
+msgid ""
+"Add Itinerary for the trip days by pressing the above button. You can write "
+"title and description for each day."
+msgstr ""
+"Fügen Sie Reiseroute pro Reise-Tag durch Drücken der obigen Schaltfläche "
+"hinzu. Sie können Titel und Beschreibung für jeden Tag eingeben."
+
+#: admin/meta-parts/tabs.php:128 admin/meta-parts/tabs.php:137
+#: admin/meta-parts/tabs.php:154
+msgid "Title:"
+msgstr "Titel:"
+
+#: admin/meta-parts/tabs.php:131
+msgid "Price Includes:"
+msgstr "Im Preis inbegriffen:"
+
+#: admin/meta-parts/tabs.php:140
+msgid "Price doesn't Include:"
+msgstr "Im Preis <strong>nicht</strong> inbegriffen:"
+
+#: admin/meta-parts/tabs.php:170
+msgid "Faq-"
+msgstr "FAQ"
+
+#: admin/meta-parts/tabs.php:187
+msgid "Add Faq"
+msgstr "FAQ hinzufügen"
+
+#: admin/meta-parts/tabs.php:188
+msgid ""
+"Add Frequently Asked Questions for the trip by pressing the above button. "
+"You can write question and answer for each FAQs."
+msgstr ""
+"Fügen Sie häufig gestellte Fragen für die Reise durch Drücken der obigen "
+"Schaltfläche hinzu. Sie können Frage und Antwort für jede FAQ eintragen."
+
+#: admin/meta-parts/tabs.php:199
+msgid "Review Title:"
+msgstr "Bewertungstitel:"
+
+#: admin/meta-parts/trip-facts.php:6
+msgid ""
+"You can add, edit and delete the trip info via <b>Trips > Settings > Trip "
+"Info</b>."
+msgstr ""
+"Sie können die Reise-Info über <b>Reisen > Einstellungen > Reise Info</b> "
+"hinzufügen, bearbeiten und löschen."
+
+#: admin/meta-parts/trip-facts.php:18
+msgid "Info Type&hellip;"
+msgstr "Infotyp &hellip;"
+
+#: admin/meta-parts/trip-facts.php:19
+msgid "Choose info type&hellip;"
+msgstr "Wählen Sie den Infotyp &hellip;"
+
+#: admin/meta-parts/trip-price.php:8
+msgid "Regular Price : "
+msgstr "Regulärer Preis:&nbsp; "
+
+#: admin/meta-parts/trip-price.php:18
+msgid "Regular Price for the trip"
+msgstr "Regulärer Preis für die Reise"
+
+#: admin/meta-parts/trip-price.php:21
+msgid "Enable Sale Price:"
+msgstr "Aktionspreis erlauben:"
+
+#: admin/meta-parts/trip-price.php:25
+msgid "Sales Price : "
+msgstr "Aktionspreis:"
+
+#: admin/meta-parts/trip-price.php:35
+msgid "Price for the trip"
+msgstr "Preis für die Reise"
+
+#: admin/meta-parts/trip-price.php:41
+msgid "Trip Duration (Days) : "
+msgstr "Reisedauer (Tage):"
+
+#: admin/meta-parts/trip-price.php:45
+msgid "Trip Duration (Nights) : "
+msgstr "Reisedauer (Nächte):"
+
+#: admin/meta-parts/trip-price.php:46
+msgid "Number of nights"
+msgstr "Anzahl der Nächte"
+
+#: includes/backend/booking/booking-details.php:12
+#: includes/backend/booking/customer.php:10
+msgid "Customer ID: "
+msgstr "Kunden-ID:"
+
+#: includes/backend/booking/booking-details.php:21
+#: includes/backend/booking/booking.php:31
+#: includes/backend/booking/booking.php:143
+msgid "Title"
+msgstr "Titel"
+
+#: includes/backend/booking/booking-details.php:23
+#: includes/backend/booking/booking.php:33
+#: includes/backend/booking/booking.php:114
+#: includes/backend/booking/booking.php:145
+#: includes/class-wp-travel-engine-confirmation.php:517
+#: includes/class-wp-travel-engine-confirmation.php:547
+msgid "Please choose&hellip;"
+msgstr "Bitte auswählen &hellip;"
+
+#: includes/backend/booking/booking-details.php:36
+#: includes/backend/booking/booking.php:47
+#: includes/backend/booking/booking.php:159 includes/privacy-functions.php:165
+#: includes/privacy-functions.php:218
+msgid "First Name"
+msgstr "Vorname"
+
+#: includes/backend/booking/booking-details.php:42
+#: includes/backend/booking/booking.php:53
+#: includes/backend/booking/booking.php:165 includes/privacy-functions.php:169
+#: includes/privacy-functions.php:222
+msgid "Last Name"
+msgstr "Nachname"
+
+#: includes/backend/booking/booking-details.php:54
+#: includes/backend/booking/booking.php:65
+#: includes/backend/booking/booking.php:171 includes/privacy-functions.php:177
+#: includes/privacy-functions.php:230
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/backend/booking/booking-details.php:60
+#: includes/backend/booking/booking.php:71 includes/privacy-functions.php:181
+#: includes/privacy-functions.php:234
+msgid "City"
+msgstr "Ort"
+
+#: includes/backend/booking/booking-details.php:68
+#: includes/backend/booking/booking.php:79
+#: includes/backend/booking/customer.php:37
+#: includes/class-wp-travel-engine-confirmation.php:483
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:77
+#: includes/templates/order-form-template.php:266
+#: public/class-wp-travel-engine-public.php:1000
+#: public/class-wp-travel-engine-public.php:1070
+msgid "Choose country&hellip;"
+msgstr "Land auswählen &hellip;"
+
+#: includes/backend/booking/booking-details.php:81
+#: includes/backend/booking/booking.php:94
+#: includes/backend/booking/booking.php:177
+msgid "Post-code"
+msgstr "Postleitzahl"
+
+#: includes/backend/booking/booking-details.php:87
+#: includes/backend/booking/booking.php:100
+#: includes/backend/booking/booking.php:183
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/backend/booking/booking.php:8
+msgid "Travelers info not available."
+msgstr "Keine zusätzlichen Angaben verfügbar."
+
+#: includes/backend/booking/booking.php:21
+#: includes/class-wp-travel-engine-confirmation.php:432
+msgid "Personal details for Traveler: "
+msgstr "Persönliche Angaben des Reisenden:"
+
+#: includes/backend/booking/booking.php:106
+msgid "Date of Birth"
+msgstr "Geburtsdatum"
+
+#: includes/backend/booking/booking.php:112
+msgid "Gender"
+msgstr "Geschlecht"
+
+#: includes/backend/booking/booking.php:134
+#: includes/class-wp-travel-engine-confirmation.php:535
+msgid "Emergency contact details for Traveler: "
+msgstr "Notfall-Kontaktdaten des Reisenden:"
+
+#: includes/backend/booking/booking.php:189
+msgid "Relation"
+msgstr "Verhältnis"
+
+#: includes/backend/booking/booking.php:208
+msgid "Medical details for Traveler: "
+msgstr "Medizinische Details des Reisenden:"
+
+#: includes/backend/booking/customer-history.php:16
+msgid "Bookings: "
+msgstr "Buchungen:"
+
+#: includes/backend/booking/customer-history.php:17
+msgid "Booked On: "
+msgstr "Gebucht am:"
+
+#: includes/backend/booking/customer.php:15
+msgid "First Name: "
+msgstr "Vorname: "
+
+#: includes/backend/booking/customer.php:19
+msgid "Last Name: "
+msgstr "Nachname: "
+
+#: includes/backend/booking/customer.php:23
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:188
+msgid "Email: "
+msgstr "E-Mail: "
+
+#: includes/backend/booking/customer.php:27
+msgid "Address: "
+msgstr "Adresse: "
+
+#: includes/backend/booking/customer.php:31
+msgid "City: "
+msgstr "Ort:"
+
+#: includes/backend/booking/customer.php:35
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:75
+msgid "Country:"
+msgstr "Land:"
+
+#: includes/backend/booking/customer.php:49
+msgid "Post-code: "
+msgstr "Postleitzahl:"
+
+#: includes/backend/booking/pay.php:25
+msgid "Payment Status: "
+msgstr "Zahlungsstatus:"
+
+#: includes/backend/booking/pay.php:35
+msgid "Payer Status: "
+msgstr "Status des Zahlenden:"
+
+#: includes/backend/booking/pay.php:38
+msgid "Payment Type: "
+msgstr "Zahlunsgart:"
+
+#: includes/backend/booking/pay.php:41
+msgid "Transaction ID: "
+msgstr "Transaktions-ID: "
+
+#: includes/backend/booking/trip.php:8
+msgid "Travelers: "
+msgstr "Reisende:"
+
+#: includes/backend/booking/trip.php:12
+msgid "Total Cost: "
+msgstr "Gesamtkosten:"
+
+#: includes/backend/booking/trip.php:25
+msgid "Remaining Payment: "
+msgstr "Verbleibende Zahlung:"
+
+#: includes/backend/booking/trip.php:29
+msgid "Trip ID: "
+msgstr "Reise-ID:"
+
+#: includes/backend/booking/trip.php:33
+msgid "Trip Name: "
+msgstr "Reise Name:"
+
+#: includes/backend/booking/trip.php:37
+msgid "Trip Start Date: "
+msgstr "Startdatum :"
+
+#: includes/backend/booking/trip.php:44
+msgid "Acquisition Method: "
+msgstr "Akquise-Quelle:"
+
+#: includes/backend/settings/extensions.php:8
+msgid "Number of Trip Dates: "
+msgstr "Anzahl der Reisedaten:"
+
+#: includes/backend/settings/misc.php:7
+msgid "Currency code:"
+msgstr "Währungkürzel:"
+
+#: includes/backend/settings/misc.php:9 includes/backend/settings/misc.php:10
+msgid "Choose a currency&hellip;"
+msgstr "Wählen Sie eine Währung aus &hellip;"
+
+#: includes/backend/settings/misc.php:28
+msgid "Book Now Button Text : "
+msgstr "Text für den \"Buchen\"-Knopf"
+
+#: includes/backend/settings/misc.php:29
+msgid "Book now button label"
+msgstr "Text der Schaltfläche"
+
+#: includes/backend/settings/misc.php:33
+msgid "Hide Booking Form : "
+msgstr "Buchungsformular ausblenden:"
+
+#: includes/backend/settings/misc.php:35
+msgid "If checked, booking form in the trip detail page will be disabled."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird das Buchungsformular auf der "
+"Reisedetailseite deaktiviert."
+
+#: includes/backend/settings/misc.php:39
+msgid "Hide Enquiry Form : "
+msgstr "Anfrageformular ausblenden:"
+
+#: includes/backend/settings/misc.php:41
+msgid "If checked, enquiry form in the trip detail page will be disabled."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird das Anfrageformular in der "
+"Reisesetailseite deaktiviert."
+
+#: includes/backend/settings/misc.php:44
+msgid "Hide Trip Featured Image : "
+msgstr "Featured Bild ausblenden"
+
+#: includes/backend/settings/misc.php:46
+msgid "If checked, featured image in the trip detail page will be disabled."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird das ausgewählte Bild auf der Seite mit "
+"den Reisedetails deaktiviert."
+
+#: includes/backend/settings/misc.php:49
+msgid "Email Subject for Enquiry : "
+msgstr "E-Mail-Betreff für Anfrage:"
+
+#: includes/backend/settings/misc.php:51
+msgid "Email subject for admin if a query is received."
+msgstr "E-Mail-Betreff für Admin, wenn eine Anfrage empfangen wird."
+
+#: includes/backend/settings/misc.php:55
+msgid "Enquiry Thankyou Page:"
+msgstr "Anfrage Danke Seite:"
+
+#: includes/backend/settings/misc.php:62
+#: includes/backend/settings/sub-tabs/page_settings.php:12
+#: includes/backend/settings/sub-tabs/page_settings.php:28
+#: includes/backend/settings/sub-tabs/page_settings.php:44
+#: includes/backend/settings/sub-tabs/page_settings.php:61
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Auswahl &mdash;"
+
+#: includes/backend/settings/misc.php:68
+msgid ""
+"This is the thankyou page where user will be redirected after successful "
+"enquiry."
+msgstr ""
+"Dies ist die Danke Seite wohin Benutzer nach erfolgreicher Anfrage "
+"weitergeleitet werden."
+
+#: includes/backend/settings/misc.php:72
+msgid "Travelers Information : "
+msgstr "Informationen für Reisende:"
+
+#: includes/backend/settings/misc.php:74
+msgid ""
+"If checked, information of all the travelers will be optional. After "
+"checkout, information of each of the travelers won't be asked to fill up."
+msgstr ""
+"Wenn diese Option aktiviert ist, werden die Informationen aller Reisenden "
+"optional sein. Nach dem Buchen werden Informationen für jedem der Reisenden "
+"abgefragt."
+
+#: includes/backend/settings/misc.php:78
+msgid "Per Person Format : "
+msgstr "Pro Person-Format:"
+
+#: includes/backend/settings/misc.php:80
+msgid "Per Person format in the trip booking form. Default is '/person'"
+msgstr ""
+"Pro Person-Format in das Reise-Buchungs-Formular. Standard ist \"/person\""
+
+#: includes/backend/settings/misc.php:84
+msgid "Booking Confirmation Message : "
+msgstr "Bestätigung der Buchung:"
+
+#: includes/backend/settings/misc.php:89
+msgid "GDPR Message : "
+msgstr "DSGVO-Nachricht:"
+
+#: includes/backend/settings/payment.php:4
+msgid "Enable Payment Gateways"
+msgstr "Zahlungsgateways aktivieren"
+
+#: includes/backend/settings/payment.php:6
+msgid "Test Payment : "
+msgstr "Testzahlung"
+
+#: includes/backend/settings/payment.php:8
+msgid ""
+"If checked, payment gateways will be disabled and booking will be done on a "
+"test mode. However, booking email will be received and booking will be "
+"successfully completed."
+msgstr ""
+"Wenn diese Option aktiviert ist, werden die Zahlungs-Gateways deaktiviert "
+"und die Buchung erfolgt in einem Test-Modus. Allerdings werden die Buchungs "
+"E-Mail versandt und die Buchung erfolgreich abgeschlossen."
+
+#: includes/backend/settings/payment.php:11
+msgid "Paypal Standard: "
+msgstr "Paypal Standard:"
+
+#: includes/backend/settings/payment.php:13
+msgid ""
+"Please check this to enable Paypal Standard booking system for trip booking "
+"and fill the account info below."
+msgstr ""
+"Bitte aktivieren Sie dies für das 'Paypal Standard-Buchungs-System' und "
+"füllen Sie die Kontoinfo unten aus."
+
+#: includes/backend/settings/payment.php:19
+msgid "Stripe : "
+msgstr "Stripe : "
+
+#: includes/backend/settings/payment.php:21
+msgid ""
+"Please check this to enable Stripe booking system for trip booking and fill "
+"the account info below."
+msgstr ""
+"Bitte aktivieren Sie dies für das 'Stripe-Buchungs-System' und füllen Sie "
+"die Kontoinfo unten aus."
+
+#: includes/backend/settings/payment.php:32
+msgid "Payment Gateways"
+msgstr "Zahlungsarten"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:10
+msgid "Sale Notification Subject:"
+msgstr "Buchungsmitteilung Betreff:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:12
+msgid "Enter the booking subject for the purchase receipt email."
+msgstr "Geben Sie den Titel für die E-Mail-Bestellbestätigung ein."
+
+#: includes/backend/settings/sub-tabs/book_notification.php:15
+msgid "Book Notification:"
+msgstr "Buchungsbenachrichtigung:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:17
+#: includes/class-wp-travel-engine-mail.php:221
+msgid "Dear Admin,"
+msgstr "Hallo Admin,"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:18
+#: includes/class-wp-travel-engine-mail.php:222
+msgid "The following booking has been successfully made."
+msgstr "Die folgende Buchung wurde erfolgreich gemacht."
+
+#: includes/backend/settings/sub-tabs/book_notification.php:19
+#: includes/class-wp-travel-engine-mail.php:223
+msgid "Trip Name : {trip_url}"
+msgstr "Reise-Name: {trip_url}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:20
+#: includes/class-wp-travel-engine-mail.php:224
+msgid "Trip Cost:  {price}"
+msgstr "Reisekosten: {price}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:21
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:31
+#: includes/class-wp-travel-engine-mail.php:120
+#: includes/class-wp-travel-engine-mail.php:225
+msgid "Trip Start Date : {tdate}"
+msgstr "Startdatum der Reise: {tdate}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:22
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:32
+#: includes/class-wp-travel-engine-mail.php:121
+#: includes/class-wp-travel-engine-mail.php:226
+msgid "Total Number of Traveler(s): {traveler}"
+msgstr "Gesamtzahl der Reisenden: {traveler}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:23
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:33
+#: includes/class-wp-travel-engine-mail.php:122
+#: includes/class-wp-travel-engine-mail.php:228
+msgid "Total Cost: {price}"
+msgstr "Gesamtkosten: {price}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:24
+#: includes/class-wp-travel-engine-mail.php:227
+msgid "Trip Booking URL: {booking_url}"
+msgstr "Reise Buchung URL: {booking_url}"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:25
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:34
+#: includes/class-wp-travel-engine-mail.php:123
+#: includes/class-wp-travel-engine-mail.php:229
+msgid "Thank you."
+msgstr "Danke für Ihre Buchung."
+
+#: includes/backend/settings/sub-tabs/book_notification.php:26
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:35
+#: includes/class-wp-travel-engine-mail.php:124
+#: includes/class-wp-travel-engine-mail.php:230
+msgid "Best regards,"
+msgstr "Mit freundlichen Grüssen,"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:39
+msgid ""
+"Enter the text that is sent as sale notification email after completion of a "
+"purchase. HTML is accepted. Available template tags:"
+msgstr ""
+"Geben Sie den Text ein, der als Buchungsbestätigung gesendet wird, nachdem "
+"die Buchung erfolgreich abgeschlossen wurde. HTML wird akzeptiert. "
+"Verfügbare Vorlagen Tags sind:"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:41
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:49
+msgid "{trip_url} - The trip URL for each booked trip"
+msgstr "{trip_url} - die Reise-URL für jede gebuchte Reise"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:42
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:50
+msgid "{name} - The buyer's first name"
+msgstr "{name} - Vorname des Käufers"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:43
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:51
+msgid "{fullname} - The buyer's full name, first and last"
+msgstr "{fullname} - Der vollständige Name des Käufers, Vorname und Nachname"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:44
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:52
+msgid "{user_email} - The buyer's email address"
+msgstr "{user_email} - e-Mail-Adresse des Käufers"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:45
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:53
+msgid "{billing_address} - The buyer's billing address"
+msgstr "{billing_address} - Die Rechnungsadresse des Käufers"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:46
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:54
+msgid "{tdate} - The starting date of the trip"
+msgstr "{tdate} - Das Startdatum der Reise"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:47
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:55
+msgid "{traveler} - The total number of traveler(s)"
+msgstr "{traveller} - Die Gesamtzahl der Reisenden"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:48
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:56
+msgid "{tprice} - The trip price"
+msgstr "{tprice} - Preis der Reise"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:49
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:57
+msgid "{price} - The total price of the booking"
+msgstr "{price} - des Gesamtpreis der Buchung"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:50
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:58
+msgid "{sitename} - Your site name"
+msgstr "{sitename} - Name der Webseite"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:51
+msgid "{booking_url} - The trip booking link"
+msgstr "{booking_url} - die Reisebuchungs-URL"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:52
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:59
+msgid "{ip_address} - The buyer's IP Address"
+msgstr "{ip_address} - Die IP-Adresse des Käufers"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:57
+msgid "Sale Notification Emails:"
+msgstr "Benachrichtigungs-E-Mail"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:66
+msgid ""
+"Enter the email address(es) that should receive a notification anytime a "
+"sale is made, separated by comma (,) and no spaces."
+msgstr ""
+"Geben Sie die Emailadresse(n) ein, die eine Benachrichtigung erhalten "
+"sollen, jedes mal wenn eine Buchung gemacht wurde, getrennt durch Komma (,) "
+"und ohne Leerzeichen."
+
+#: includes/backend/settings/sub-tabs/book_notification.php:69
+msgid "Disable Admin Notifications:"
+msgstr "Deaktiviere Admin-Benachrichtigungen"
+
+#: includes/backend/settings/sub-tabs/book_notification.php:72
+msgid "Check this box if you do not want to receive sales notification emails."
+msgstr ""
+"Aktivieren Sie diese Option, wenn Sie <strong>keine</strong> E-Mails von "
+"neuen Buchungen erhalten möchten."
+
+#: includes/backend/settings/sub-tabs/email_settings.php:6
+msgid "Email Template:"
+msgstr "Email-Vorlage:"
+
+#: includes/backend/settings/sub-tabs/email_settings.php:7
+msgid "Choose a template type&hellip;"
+msgstr "Wählen Sie einen Vorlagentyp &hellip;"
+
+#: includes/backend/settings/sub-tabs/email_settings.php:21
+msgid ""
+"Choose a template. Click \"Save Changes\" then \"Preview Purchase Receipt\" "
+"to see the new template."
+msgstr ""
+"Wählen Sie eine Vorlage. Klicken Sie auf \"Änderungen speichern\" und dann "
+"auf \"Vorschau\", um die neue Vorlage zu sehen."
+
+#: includes/backend/settings/sub-tabs/page_settings.php:4
+msgid "Checkout:"
+msgstr "Warenkorb:"
+
+#: includes/backend/settings/sub-tabs/page_settings.php:18
+msgid ""
+"This is the checkout page where buyers will complete their order. The "
+"[WP_TRAVEL_ENGINE_PLACE_ORDER] shortcode must be on this page."
+msgstr ""
+"Das ist die Buchungs-Seite, wo Kunden ihre Reservierung vervollständigen "
+"können. Der Shortcode [WP_TRAVEL_ENGINE_PLACE_ORDER] muss auf dieser Seite "
+"sein."
+
+#: includes/backend/settings/sub-tabs/page_settings.php:21
+msgid "Terms and Conditions:"
+msgstr "Allgemeine Geschäftsbedingungen:"
+
+#: includes/backend/settings/sub-tabs/page_settings.php:34
+msgid ""
+"This is the terms and conditions page where trip bookers will see the terms "
+"and conditions for booking."
+msgstr ""
+"Dies ist die Allgemeine Geschäftsbedingungen-Seite, auf der Reisebucher die "
+"Buchungsbedingungen einsehen können."
+
+#: includes/backend/settings/sub-tabs/page_settings.php:37
+msgid "Thank You:"
+msgstr "Vielen Dank:"
+
+#: includes/backend/settings/sub-tabs/page_settings.php:50
+msgid ""
+"This is the thank you page where trip bookers will get the payment "
+"confirmation message. The [WP_TRAVEL_ENGINE_THANK_YOU] shortcode must be on "
+"this page."
+msgstr ""
+"Dies ist die Danke-Seite, welche Reise-Bucher nach erfolgter Zahlung "
+"erhalten. [WP_TRAVEL_ENGINE_THANK_YOU] Shortcode muss auf dieser Seite."
+
+#: includes/backend/settings/sub-tabs/page_settings.php:54
+msgid "Confirmation Page:"
+msgstr "Bestätigungsseite:"
+
+#: includes/backend/settings/sub-tabs/page_settings.php:67
+msgid ""
+"This is the confirmation page where trip bookers will fill the full form of "
+"the travelers. The [WP_TRAVEL_ENGINE_BOOK_CONFIRMATION] shortcode must be on "
+"this page."
+msgstr ""
+"Dies ist die Bestätigungsseite wo Reise-Bucher die Details der Reisenden "
+"ausfüllen. [WP_TRAVEL_ENGINE_BOOK_CONFIRMATION] Shortcode muss auf dieser "
+"Seite sein."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:5
+msgid "From Name:"
+msgstr "Absender-Name:"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:9
+msgid ""
+"Enter the name the purchase receipts are sent from. This should probably be "
+"your site or shop name."
+msgstr ""
+"Der E-Mail Absender, von welchem die Buchungsbestätigungen versandt werden. "
+"Dies sollte Ihre Website oder Ihr Firmenname sein."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:12
+msgid "From Email:"
+msgstr "Absender-E-Mail:"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:15
+msgid ""
+"Enter the email address from which the purchase receipts will be sent. This "
+"will act as the \"from\" and \"reply-to\" address."
+msgstr ""
+"E-Mail Adresse von welcher die Bestätigungen gesendet werden sollen. Diese "
+"Adresse wird die \"from\" und \"reply-to\" Adresse der Email."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:18
+msgid "Purchase Email Subject:"
+msgstr "Buchungs E-Mail Betreff:"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:21
+msgid "Enter the subject line for the purchase receipt email."
+msgstr "Geben Sie die Betreffzeile für die Buchungs E-Mail ein."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:24
+msgid "Purchase Receipt:"
+msgstr "Buchungs-Beleg:"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:26
+#: includes/class-wp-travel-engine-mail.php:115
+msgid "Dear {name},"
+msgstr "Liebe(r) {name},"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:27
+#: includes/class-wp-travel-engine-mail.php:116
+msgid ""
+"You have successfully made the trip booking. Your booking information is "
+"below."
+msgstr ""
+"Sie haben die Reise erfolgreich gebucht. Informationen zu Ihrer Buchung "
+"siehe unten."
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:29
+#: includes/class-wp-travel-engine-mail.php:118
+msgid "Trip Name: {trip_url}"
+msgstr "Reise-Name: {trip_url}"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:30
+#: includes/class-wp-travel-engine-mail.php:119
+msgid "Trip Cost: {tprice}"
+msgstr "Reisekosten: {tprice}"
+
+#: includes/backend/settings/sub-tabs/purchase_receipt.php:47
+msgid ""
+"Enter the text that is sent as purchase receipt email to users after "
+"completion of a successful purchase. HTML is accepted. Available template "
+"tags:"
+msgstr ""
+"Geben Sie die Email ein, die an Benutzer gesendet wird, nachdem die Buchung "
+"erfolgreich abgeschlossen wurde. HTML wird akzeptiert. Verfügbare Vorlagen "
+"Tags sind:"
+
+#: includes/backend/settings/sub-tabs/tabs_settings.php:55
+msgid "Press \"Add Tab\" to add Tabs..."
+msgstr "Klicken Sie \"Add Tab\" um Tabs hinzuzufügen"
+
+#: includes/backend/settings/sub-tabs/trip_info.php:20
+msgid "Field Name is the unique id of the input field."
+msgstr "Feld Name ist die eindeutige ID des Eingabefeldes."
+
+#: includes/backend/settings/sub-tabs/trip_info.php:59
+msgid "Press \"Add Field\" to add input fields..."
+msgstr "Klicken Sie auf \"Add Field\" um Eingabefelder hinzufügen..."
+
+#: includes/backend/submenu/extensions.php:2
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+#: includes/backend/submenu/extensions.php:7
+#: includes/backend/submenu/extensions.php:96
+msgid "View All Extensions"
+msgstr "Alle Erweiterungen"
+
+#: includes/backend/submenu/extensions.php:10
+msgid "These extensions add functionality to your travel booking website."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:14
+msgid "Trip Fixed Starting Dates"
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:18
+msgid ""
+"This extension allows travel agencies and tour operators to show trip fixed "
+"starting dates and number of space available for booking."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:19
+#: includes/backend/submenu/extensions.php:28
+#: includes/backend/submenu/extensions.php:37
+#: includes/backend/submenu/extensions.php:46
+#: includes/backend/submenu/extensions.php:55
+#: includes/backend/submenu/extensions.php:64
+#: includes/backend/submenu/extensions.php:73
+#: includes/backend/submenu/extensions.php:82
+#: includes/backend/submenu/extensions.php:91
+msgid "Get the Extension!"
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:23
+#: includes/class-wp-travel-engine-archive-hooks.php:131
+#: includes/templates/taxonomy-activities.php:115
+#: includes/templates/taxonomy-activities.php:316
+#: includes/templates/taxonomy-activities.php:538
+#: includes/templates/taxonomy-destination.php:166
+#: includes/templates/taxonomy-destination.php:368
+#: includes/templates/taxonomy-destination.php:573
+#: includes/templates/taxonomy-trip_types.php:114
+#: includes/templates/taxonomy-trip_types.php:314
+#: includes/templates/taxonomy-trip_types.php:535
+#: includes/templates/template-trip-listing.php:89
+#: public/class-wp-travel-engine-public.php:541
+#: public/class-wp-travel-engine-public.php:815
+msgid "Group Discount"
+msgstr "Gruppenrabatt"
+
+#: includes/backend/submenu/extensions.php:27
+msgid ""
+"This extension allows travel agencies and tour operators to give group "
+"discount to their customers."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:32
+#: includes/backend/submenu/extensions.php:86
+msgid "Trip Search"
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:36
+msgid ""
+"This extension adds an advanced trip search feature providing different "
+"search filters."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:41
+msgid "Stripe Payment Gateway"
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:45
+msgid ""
+"An extension of WP Travel Engine plugin to accept payment directly on your "
+"website through your Stripe account."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:50
+msgid "Authorize.net Payment Gateway"
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:54
+msgid ""
+"An extension of WP Travel Engine plugin to accept payment directly on your "
+"website through your Authorize.net account."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:59
+msgid "PayU Payment Gateway"
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:63
+msgid ""
+"An extension of WP Travel Engine plugin to accept payment directly on your "
+"website through your PayU account."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:68
+msgid "PayFast Payment Gateway"
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:72
+msgid ""
+"An extension of WP Travel Engine plugin to accept payment directly on your "
+"website through your PayFast account."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:77
+msgid "Partial Payment"
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:81
+msgid ""
+"An extension of WP Travel Engine plugin to accept partial payment on booking "
+"based on percentage or fixed amount."
+msgstr ""
+
+#: includes/backend/submenu/extensions.php:90
+msgid ""
+"An extension of WP Travel Engine plugin to search trips based on multiple "
+"filters and options to make trip search easy for the visitors."
+msgstr ""
+
+#: includes/backend/submenu/themes.php:2
+msgid "Themes"
+msgstr ""
+
+#: includes/backend/submenu/themes.php:5
+msgid "WordPress themes compatible with WP Travel Engine plugin."
+msgstr ""
+
+#: includes/backend/submenu/themes.php:8
+msgid "Travel Agency Pro"
+msgstr ""
+
+#: includes/backend/submenu/themes.php:12
+msgid ""
+"Travel Agency Pro is a premium WordPress theme to create travel booking "
+"website for tour and travel companies."
+msgstr ""
+
+#: includes/backend/submenu/themes.php:13
+#: includes/backend/submenu/themes.php:21
+msgid "Get this Theme!"
+msgstr "Holen Sie sich dieses Theme!"
+
+#: includes/backend/submenu/themes.php:16
+msgid "Travel Agency"
+msgstr ""
+
+#: includes/backend/submenu/themes.php:20
+msgid ""
+"Travel Agency is a free WordPress theme to create travel online booking "
+"website for tour and travel operators and companies."
+msgstr ""
+
+#: includes/backend/vendor/gallery.php:29
+msgid "Enable Gallery"
+msgstr "Galerie aktivieren"
+
+#: includes/backend/vendor/gallery.php:31
+msgid "Check this to enable gallery instead of featured image in single trip."
+msgstr ""
+"Markieren Sie hier, um die Galerie anstatt das ausgewählte Bild in den "
+"Reisedetails anzuzeigen."
+
+#: includes/backend/vendor/gallery.php:34
+msgid "Add image(s)"
+msgstr "Bild(er) hinzufügen"
+
+#: includes/backend/vendor/gallery.php:41
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:53
+msgid "Trips"
+msgstr "Reisen"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:131
+#: includes/templates/taxonomy-activities.php:115
+#: includes/templates/taxonomy-activities.php:316
+#: includes/templates/taxonomy-activities.php:538
+#: includes/templates/taxonomy-destination.php:166
+#: includes/templates/taxonomy-destination.php:368
+#: includes/templates/taxonomy-destination.php:573
+#: includes/templates/taxonomy-trip_types.php:114
+#: includes/templates/taxonomy-trip_types.php:314
+#: includes/templates/taxonomy-trip_types.php:535
+#: includes/templates/template-trip-listing.php:89
+#: public/class-wp-travel-engine-public.php:541
+#: public/class-wp-travel-engine-public.php:815
+msgid "You have group discount in this trip."
+msgstr "Sie haben Gruppenrabatt bei dieser Reise."
+
+#: includes/class-wp-travel-engine-archive-hooks.php:184
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts-shortcode.php:79
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts.php:75
+#: includes/templates/taxonomy-activities.php:168
+#: includes/templates/taxonomy-activities.php:369
+#: includes/templates/taxonomy-activities.php:591
+#: includes/templates/taxonomy-destination.php:219
+#: includes/templates/taxonomy-destination.php:421
+#: includes/templates/taxonomy-destination.php:626
+#: includes/templates/taxonomy-trip_types.php:167
+#: includes/templates/taxonomy-trip_types.php:367
+#: includes/templates/taxonomy-trip_types.php:588
+#: includes/templates/template-trip-listing.php:142
+#: public/class-wp-travel-engine-public.php:594
+#: public/class-wp-travel-engine-public.php:868
+msgid " days"
+msgstr " Tage"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:184
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts-shortcode.php:79
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts.php:75
+#: includes/templates/taxonomy-activities.php:168
+#: includes/templates/taxonomy-activities.php:369
+#: includes/templates/taxonomy-activities.php:591
+#: includes/templates/taxonomy-destination.php:219
+#: includes/templates/taxonomy-destination.php:421
+#: includes/templates/taxonomy-destination.php:626
+#: includes/templates/taxonomy-trip_types.php:167
+#: includes/templates/taxonomy-trip_types.php:367
+#: includes/templates/taxonomy-trip_types.php:588
+#: includes/templates/template-trip-listing.php:142
+#: public/class-wp-travel-engine-public.php:594
+#: public/class-wp-travel-engine-public.php:868
+msgid " day"
+msgstr " Tag"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:193
+#: includes/templates/taxonomy-activities.php:177
+#: includes/templates/taxonomy-activities.php:378
+#: includes/templates/taxonomy-activities.php:600
+#: includes/templates/taxonomy-destination.php:228
+#: includes/templates/taxonomy-destination.php:430
+#: includes/templates/taxonomy-destination.php:635
+#: includes/templates/taxonomy-trip_types.php:176
+#: includes/templates/taxonomy-trip_types.php:376
+#: includes/templates/taxonomy-trip_types.php:597
+#: includes/templates/template-trip-listing.php:151
+#: public/class-wp-travel-engine-public.php:603
+#: public/class-wp-travel-engine-public.php:877
+msgid "Next Departure"
+msgstr "Nächste Reisetermin"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:218
+#: includes/templates/taxonomy-activities.php:203
+#: includes/templates/taxonomy-activities.php:404
+#: includes/templates/taxonomy-activities.php:626
+#: includes/templates/taxonomy-destination.php:254
+#: includes/templates/taxonomy-destination.php:456
+#: includes/templates/taxonomy-destination.php:661
+#: includes/templates/taxonomy-trip_types.php:202
+#: includes/templates/taxonomy-trip_types.php:402
+#: includes/templates/taxonomy-trip_types.php:622
+#: includes/templates/template-trip-listing.php:176
+#: public/class-wp-travel-engine-public.php:629
+#: public/class-wp-travel-engine-public.php:903
+msgid "spaces left"
+msgstr "Verfügbare Plätze:"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:218
+#: includes/templates/taxonomy-activities.php:203
+#: includes/templates/taxonomy-activities.php:404
+#: includes/templates/taxonomy-activities.php:626
+#: includes/templates/template-trip-listing.php:176
+#: public/class-wp-travel-engine-public.php:629
+#: public/class-wp-travel-engine-public.php:903
+msgid "0 space left"
+msgstr "Kein Plätze mehr verfügbar"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:234
+#: includes/templates/taxonomy-activities.php:219
+#: includes/templates/taxonomy-activities.php:420
+#: includes/templates/taxonomy-activities.php:642
+#: includes/templates/taxonomy-destination.php:270
+#: includes/templates/taxonomy-destination.php:472
+#: includes/templates/taxonomy-destination.php:677
+#: includes/templates/taxonomy-trip_types.php:218
+#: includes/templates/taxonomy-trip_types.php:418
+#: includes/templates/taxonomy-trip_types.php:638
+#: includes/templates/template-trip-listing.php:192
+#: public/class-wp-travel-engine-public.php:645
+#: public/class-wp-travel-engine-public.php:919
+msgid "View Detail"
+msgstr "Details anzeigen"
+
+#: includes/class-wp-travel-engine-confirmation.php:29
+#: includes/class-wp-travel-engine-thank-you.php:44
+#: includes/class-wp-travel-engine-thank-you.php:150
+msgid ""
+"Sorry, you may not have confirmed your booking. Please fill up the form and "
+"confirm your booking. Thank you."
+msgstr ""
+"Entschuldigung, Sie haben Ihre Buchung möglicherweise nicht bestätigt. Bitte "
+"füllen Sie das Formular aus und bestätigen Sie Ihre Buchung. Vielen Dank."
+
+#: includes/class-wp-travel-engine-confirmation.php:394
+#: includes/class-wp-travel-engine-confirmation.php:675
+msgid "There was an error on update."
+msgstr "Bei der Aktualisierung ist ein Fehler aufgetreten."
+
+#: includes/class-wp-travel-engine-confirmation.php:604
+msgid "GP confirmation "
+msgstr "GP-Bestätigung"
+
+#: includes/class-wp-travel-engine-confirmation.php:612
+msgid "Disclaimer "
+msgstr "Impressum"
+
+#: includes/class-wp-travel-engine-confirmation.php:623
+#: includes/templates/order-form-template.php:313
+msgid "Confirm Booking"
+msgstr "zahlungspflichtig buchen"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:19
+msgid "You can send your inquiry via the form below."
+msgstr "Sie können Ihre Anfrage über das unten stehende Formular senden."
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:22
+msgid "Package name:"
+msgstr "Paketname:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:27
+msgid "Your name:"
+msgstr "Ihr Name:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:28
+msgid "Enter Your Name"
+msgstr "Ihre Name"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:31
+msgid "Your email:"
+msgstr "Ihre E-Mail:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:32
+msgid "Enter Your Email"
+msgstr "gültige E-Mail-Adresse"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:41
+msgid "Contact No.:"
+msgstr "Telefon:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:42
+#: includes/class-wp-travel-engine-functions.php:1055
+msgid "Enter Your Contact Number"
+msgstr "Telefonnummer"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:49
+msgid "Adults:"
+msgstr "Erwachsene:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:50
+#: includes/class-wp-travel-engine-functions.php:1061
+msgid "Enter Number of Adults"
+msgstr "Anzahl Erwachsene"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:57
+msgid "Children:"
+msgstr "Anzahl Kinder:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:58
+#: includes/class-wp-travel-engine-functions.php:1067
+msgid "Enter Number of Children"
+msgstr "Anzahl der Kinder"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:66
+msgid "Your message:"
+msgstr "Ihre Mitteilung:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:67
+#: includes/class-wp-travel-engine-functions.php:1071
+msgid "Your Message"
+msgstr "Ihre Mitteilung"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:76
+#: includes/class-wp-travel-engine-functions.php:1049
+msgid "Choose a country&hellip;"
+msgstr "Land auswählen&hellip;"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:109
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:143
+msgid "Send email"
+msgstr "E-mail senden"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:185
+msgid "Name: "
+msgstr "Name: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:186
+msgid "Country: "
+msgstr "Land: "
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:187
+msgid "Trip: "
+msgstr "Reise:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:189
+msgid "Contact: "
+msgstr "Kontakt:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:190
+msgid "Adult: "
+msgstr "Erwachsene:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:191
+msgid "Children: "
+msgstr "Kinder:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:192
+msgid "Message: "
+msgstr "Nachricht:"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:249
+msgid "Your query has been successfully sent. Thank You."
+msgstr ""
+"Vielen Dank für Ihre Anfrage - wir melden uns schnellstmöglich bei Ihnen"
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:261
+msgid ""
+"Sorry, your query could not be sent at the moment. May be try again later. "
+"Thank You."
+msgstr ""
+"Ihre Anfrage konnte momentan nicht gesendet werden. Bitte versuchen Sie es "
+"später erneut. Danke."
+
+#: includes/class-wp-travel-engine-enquiry-form-shortcodes.php:271
+msgid "Confirmation failed, please try again. Thank You."
+msgstr "Bearbeitung fehlgeschlagen. Bitte versuchen Sie es nochmal."
+
+#: includes/class-wp-travel-engine-functions.php:150
+msgid "« Previous"
+msgstr "« Zurück"
+
+#: includes/class-wp-travel-engine-functions.php:151
+msgid "Next »"
+msgstr "Weiter »"
+
+#: includes/class-wp-travel-engine-functions.php:170
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:171
+msgid "Afghan afghani"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:172
+msgid "Albanian lek"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:173
+msgid "Armenian dram"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:174
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:175
+msgid "Angolan kwanza"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:176
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:177
+msgid "Australian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:178
+msgid "Aruban florin"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:179
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:180
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:181
+msgid "Barbadian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:182
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:183
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:184
+msgid "Bahraini dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:185
+msgid "Burundian franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:186
+msgid "Bermudian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:187
+msgid "Brunei dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:188
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:189
+msgid "Brazilian real"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:190
+msgid "Bahamian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:191
+msgid "Bitcoin"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:192
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:193
+msgid "Botswana pula"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:194
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:195
+msgid "Belarusian ruble"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:196
+msgid "Belize dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:197
+msgid "Canadian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:198
+msgid "Congolese franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:199
+msgid "Swiss franc"
+msgstr "Schweizer Franken"
+
+#: includes/class-wp-travel-engine-functions.php:200
+msgid "Chilean peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:201
+msgid "Chinese yuan"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:202
+msgid "Colombian peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:203
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:204
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:205
+msgid "Cuban peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:206
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:207
+msgid "Czech koruna"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:208
+msgid "Djiboutian franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:209
+msgid "Danish krone"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:210
+msgid "Dominican peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:211
+msgid "Algerian dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:212
+msgid "Egyptian pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:213
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:214
+msgid "Ethiopian birr"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:215
+msgid "Euro"
+msgstr "Euro"
+
+#: includes/class-wp-travel-engine-functions.php:216
+msgid "Fijian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:217
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:218
+msgid "Pound sterling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:219
+msgid "Georgian lari"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:220
+msgid "Guernsey pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:221
+msgid "Ghana cedi"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:222
+msgid "Gibraltar pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:223
+msgid "Gambian dalasi"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:224
+msgid "Guinean franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:225
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:226
+msgid "Guyanese dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:227
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:228
+msgid "Honduran lempira"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:229
+msgid "Croatian kuna"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:230
+msgid "Haitian gourde"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:231
+msgid "Hungarian forint"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:232
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:233
+msgid "Israeli new shekel"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:234
+msgid "Manx pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:235
+msgid "Indian rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:236
+msgid "Iraqi dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:237
+msgid "Iranian rial"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:238
+msgid "Iranian toman"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:239
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:240
+msgid "Jersey pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:241
+msgid "Jamaican dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:242
+msgid "Jordanian dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:243
+msgid "Japanese yen"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:244
+msgid "Kenyan shilling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:245
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:246
+msgid "Cambodian riel"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:247
+msgid "Comorian franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:248
+msgid "North Korean won"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:249
+msgid "South Korean won"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:250
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:251
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:252
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:253
+msgid "Lao kip"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:254
+msgid "Lebanese pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:255
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:256
+msgid "Liberian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:257
+msgid "Lesotho loti"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:258
+msgid "Libyan dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:259
+msgid "Moroccan dirham"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:260
+msgid "Moldovan leu"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:261
+msgid "Malagasy ariary"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:262
+msgid "Macedonian denar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:263
+msgid "Burmese kyat"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:264
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:265
+msgid "Macanese pataca"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:266
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:267
+msgid "Mauritian rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:268
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:269
+msgid "Malawian kwacha"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:270
+msgid "Mexican peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:271
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:272
+msgid "Mozambican metical"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:273
+msgid "Namibian dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:274
+msgid "Nigerian naira"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:275
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:276
+msgid "Norwegian krone"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:277
+msgid "Nepalese rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:278
+msgid "New Zealand dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:279
+msgid "Omani rial"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:280
+msgid "Panamanian balboa"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:281
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:282
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:283
+msgid "Philippine peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:284
+msgid "Pakistani rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:285
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:286
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:287
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:288
+msgid "Qatari riyal"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:289
+msgid "Romanian leu"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:290
+msgid "Serbian dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:291
+msgid "Russian ruble"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:292
+msgid "Rwandan franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:293
+msgid "Saudi riyal"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:294
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:295
+msgid "Seychellois rupee"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:296
+msgid "Sudanese pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:297
+msgid "Swedish krona"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:298
+msgid "Singapore dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:299
+msgid "Saint Helena pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:300
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:301
+msgid "Somali shilling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:302
+msgid "Surinamese dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:303
+msgid "South Sudanese pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:304
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:305
+msgid "Syrian pound"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:306
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:307
+msgid "Thai baht"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:308
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:309
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:310
+msgid "Tunisian dinar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:311
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:312
+msgid "Turkish lira"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:313
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:314
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:315
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:316
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainische Hrywnja"
+
+#: includes/class-wp-travel-engine-functions.php:317
+msgid "Ugandan shilling"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:318
+msgid "United States dollar"
+msgstr "US Dollar"
+
+#: includes/class-wp-travel-engine-functions.php:319
+msgid "Uruguayan peso"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:320
+msgid "Uzbekistani som"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:321
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:322
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:323
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:324
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:325
+msgid "Central African CFA franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:326
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:327
+msgid "West African CFA franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:328
+msgid "CFP franc"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:329
+msgid "Yemeni rial"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:330
+msgid "South African rand"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:331
+msgid "Zambian kwacha"
+msgstr ""
+
+#: includes/class-wp-travel-engine-functions.php:1053
+msgid "Contact No."
+msgstr "Kontakt Nr."
+
+#: includes/class-wp-travel-engine-functions.php:1059
+msgid "Adults"
+msgstr "Erwachsene"
+
+#: includes/class-wp-travel-engine-functions.php:1065
+msgid "Children"
+msgstr "Kinder"
+
+#: includes/class-wp-travel-engine-functions.php:1073
+msgid "Enter Your message"
+msgstr "Geben Sie Ihre Nachricht ein"
+
+#: includes/class-wp-travel-engine-mail.php:19
+msgid "Booking Confirmation"
+msgstr "Buchungsbestätigung"
+
+#: includes/class-wp-travel-engine-order-meta.php:36
+#: includes/class-wp-travel-engine-order-meta.php:161
+msgid "Customer Details"
+msgstr "Kundendaten"
+
+#: includes/class-wp-travel-engine-order-meta.php:78
+msgid "Booking Address"
+msgstr "Buchungsadresse"
+
+#: includes/class-wp-travel-engine-order-meta.php:203
+msgid "Customer History"
+msgstr "Kundenhistorie"
+
+#: includes/class-wp-travel-engine-place-order.php:36
+msgid ""
+"Sorry, you may not have selected the number of travelers for the trip. "
+"Please select number of travelers and confirm your booking. Thank you."
+msgstr ""
+"Sorry, Sie haben die Anzahl der Reisenden für die Reise nicht angegeben. "
+"Bitte wählen Sie die Anzahl der Reisenden und bestätigen Sie Ihre Buchung. "
+"Danke."
+
+#: includes/class-wp-travel-engine-settings.php:42
+msgid "Your settings have been saved."
+msgstr "Die Einstellungen wurden gespeichert."
+
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:48
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:77
+msgid "Image"
+msgstr "Bild"
+
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:52
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:88
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:53
+#: includes/class-wp-travel-engine-taxonomy-thumb.php:89
+msgid "Remove Image"
+msgstr "Bild entfernen "
+
+#: includes/class-wp-travel-engine-thank-you.php:72
+#: includes/class-wp-travel-engine-thank-you.php:165
+msgid ""
+"Thank you for booking the trip. Please check your email for confirmation."
+msgstr "Vielen Dank für Ihre Buchung. Bitte überprüfen Sie Ihre Emails."
+
+#: includes/class-wp-travel-engine-thank-you.php:73
+#: includes/class-wp-travel-engine-thank-you.php:166
+msgid " Below is your booking detail:"
+msgstr "Ihre Buchungsdetails:"
+
+#: includes/class-wp-travel-engine-thank-you.php:79
+#: includes/class-wp-travel-engine-thank-you.php:172
+msgid "Trip Details:"
+msgstr "Reisedetails:"
+
+#: includes/class-wp-travel-engine-thank-you.php:82
+#: includes/class-wp-travel-engine-thank-you.php:175
+msgid "Trip ID:"
+msgstr "Reise-ID:"
+
+#: includes/class-wp-travel-engine-thank-you.php:83
+#: includes/class-wp-travel-engine-thank-you.php:176
+msgid "Trip Name:"
+msgstr "Name der Reise:"
+
+#: includes/class-wp-travel-engine-thank-you.php:86
+#: includes/class-wp-travel-engine-thank-you.php:179
+msgid "Total Paid:"
+msgstr "Bezahlte Summe:"
+
+#: includes/class-wp-travel-engine-thank-you.php:90
+#: includes/class-wp-travel-engine-thank-you.php:183
+msgid "Total Cost:"
+msgstr "Gesamtkosten:"
+
+#: includes/class-wp-travel-engine-thank-you.php:92
+msgid "Remaining Payment:"
+msgstr "Verbleibende Zahlung:"
+
+#: includes/class-wp-travel-engine-thank-you.php:93
+#: includes/class-wp-travel-engine-thank-you.php:186
+msgid "Trip Start Date:"
+msgstr "Startdatum der Reise:"
+
+#: includes/class-wp-travel-engine-thank-you.php:94
+#: includes/class-wp-travel-engine-thank-you.php:187
+msgid "Number of Traveler(s):"
+msgstr "Anzahl der Reisenden:"
+
+#: includes/class-wpte-license-handler.php:166
+msgid "%1$s"
+msgstr "%1$s"
+
+#: includes/class-wpte-license-handler.php:198
+msgid ""
+"Enter your extension license keys here to receive updates for purchased "
+"extensions. If your license key has expired, please <a href=\"%s\" target="
+"\"_blank\">renew your license</a>."
+msgstr ""
+"Geben Sie hier Ihre Erweiterungs-Lizenzschlüssel ein um Updates für die "
+"gekauften Erweiterungen zu erhalten. Wenn Ihr Lizenzschlüssel abgelaufen "
+"ist, bitte <a href=\"%s\" target=\"_blank\">erneuern Sie Ihre Lizenz</a>."
+
+#: includes/class-wpte-license-handler.php:304
+msgid "Nonce verification failed"
+msgstr "Nonce Überprüfung fehlgeschlagen"
+
+#: includes/class-wpte-license-handler.php:419
+msgid ""
+"You have invalid or expired license keys for Easy Digital Downloads. Please "
+"go to the <a href=\"%s\">Licenses page</a> to correct this issue."
+msgstr ""
+"Sie haben ungültig oder abgelaufen Lizenzschlüssel für Easy Digital "
+"Downloads. Bitte gehen Sie zur <a href=\"%s\">Seite \"Lizenzen\"</a> , um "
+"dieses Problem zu beheben."
+
+#: includes/class-wpte-license-handler.php:457
+msgid "Enter valid license key for automatic updates."
+msgstr "Gültigen Lizenzschlüssel für automatische Updates eingeben."
+
+#: includes/class-wte-widget-area-admin.php:10
+msgid "WP Travel Engine Sidebar"
+msgstr "WP-Travel Engine Sidebar"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts-shortcode.php:30
+#: includes/frontend/trip-meta/trip-meta-parts/trip-facts.php:24
+msgid "Trip Facts"
+msgstr "Reisefakten"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:17
+msgid "Price From"
+msgstr "Preis von"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:80
+#: includes/templates/order-form-template.php:155
+#: public/class-wp-travel-engine-public.php:288
+msgid "Number of Travelers: "
+msgstr "Anzahl der Reisenden:"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:84
+#: public/class-wp-travel-engine-public.php:274
+msgid "Pick a date"
+msgstr "Wählen Sie ein Datum"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:88
+msgid "Cost Per Traveler: "
+msgstr "Kosten pro Reisenden:"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:99
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:105
+msgid "Total"
+msgstr "Total"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:120
+msgid "Check Availability"
+msgstr "Verfügbarkeit prüfen"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-price.php:122
+msgid "Book Now"
+msgstr "Jetzt buchen"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:23
+#: public/class-wp-travel-engine-public.php:287
+msgid " Days"
+msgstr " Tage"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:27
+#: public/class-wp-travel-engine-public.php:287
+msgid " Day"
+msgstr " Tag"
+
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:311
+msgid "Day "
+msgstr "Tag"
+
+#. translators: %s: id of current post
+#: includes/frontend/trip-meta/trip-meta-parts/trip-tabs.php:490
+msgid ""
+"Edit\r\n"
+"                    <span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+"Bearbeiten\r\n"
+"                    <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: includes/privacy-functions.php:42
+msgid "Customer for %s has been anonymized."
+msgstr "Der Kunde für %s wurde anonymisiert."
+
+#: includes/privacy-functions.php:53
+msgid ""
+"\r\n"
+"\tWe collect information about you during the checkout process on our store. "
+"This information may include, but is not limited to, your name, billing "
+"address, shipping address, email address, phone number, credit card/payment "
+"details and any other details that might be requested from you for the "
+"purpose of processing your orders.\r\n"
+"\tHandling this data also allows us to:\r\n"
+"\t- Send you important account/order/service information.\r\n"
+"\t- Respond to your queries, refund requests, or complaints.\r\n"
+"\t- Process payments and to prevent fraudulent transactions. We do this on "
+"the basis of our legitimate business interests.\r\n"
+"\t- Set up and administer your account, provide technical and/or customer "
+"support, and to verify your identity.\r\n"
+"\t"
+msgstr ""
+"\r\n"
+"\tWir sammeln während der Buchung Informationen über Sie. Diese "
+"Informationen können unter anderem Ihren Namen, Ihre Rechnungsadresse, "
+"Lieferadresse, E-Mail-Adresse, Telefonnummer, Kreditkarten- / "
+"Zahlungsdetails und alle anderen Daten enthalten, die wir möglicherweise zum "
+"Zweck der Bearbeitung Ihrer Buchungen benötigen.\r\n"
+"\tDie Handhabung dieser Daten ermöglicht uns auch:\r\n"
+"\t- das Senden von für Sie wichtiger Konto- / Bestell- / "
+"Serviceinformationen.\r\n"
+"\t- das Reagieren auf Ihre Fragen, Rückerstattungsanträge oder Beschwerden."
+"\r\n"
+"\t- Zahlungen abzuwickeln und betrügerische Transaktionen zu verhindern. Wir "
+"tun dies auf der Grundlage unserer legitimen Geschäftsinteressen.\r\n"
+"\t- Richten Sie ein Konto ein und verwalten Sie es.\r\n"
+"\t"
+
+#: includes/privacy-functions.php:65
+msgid ""
+"Location and traffic data (including IP address and browser type) if you "
+"place an order, or if we need to estimate taxes and shipping costs based on "
+"your location."
+msgstr ""
+"Standort- und Verkehrsdaten (einschließlich IP-Adresse und Browsertyp), wenn "
+"Sie eine Buchung aufgeben oder Steuern und Versandkosten basierend auf Ihrem "
+"Standort bezahlen müssen."
+
+#: includes/privacy-functions.php:66
+msgid "Product pages visited and content viewed while your session is active."
+msgstr ""
+"Produktseiten und Inhalt, welche Sie während Ihrer Sitzung besucht haben."
+
+#: includes/privacy-functions.php:67
+msgid ""
+"Your comments and product reviews if you choose to leave them on our website."
+msgstr ""
+"Ihre Kommentare und Produktbewertungen, wenn Sie diese auf unserer Website "
+"hinterlassen."
+
+#: includes/privacy-functions.php:68
+msgid ""
+"Account email/password to allow you to access your account, if you have one."
+msgstr "E-Mail/Passwort für den Zugriff auf Ihr Konto, wenn Sie eines haben."
+
+#: includes/privacy-functions.php:69
+msgid ""
+"If you choose to create an account with us, your name, address, and email "
+"address, which will be used to populate the checkout for future orders."
+msgstr ""
+"Wenn Sie ein Konto bei uns zu erstellen, speichern wir Ihren Namen, Ihre "
+"Adresse und Ihre E-Mail-Adresse. Diese Angaben werden bei künftigen "
+"Bestellungen zum Ausfüllen der Bezahlinformationen verwendet."
+
+#: includes/privacy-functions.php:74
+msgid "Additionally we may also collect the following information:"
+msgstr ""
+"Darüber hinaus erfassen wir möglicherweise auch die folgende Informationen:"
+
+#. Author of the plugin/theme
+msgid "WP Travel Engine"
+msgstr "WP Travel Engine"
+
+#: includes/privacy-functions.php:144 includes/privacy-functions.php:196
+msgid "Enquiry Record"
+msgstr "Anfragen-Datensatz"
+
+#: includes/privacy-functions.php:189
+msgid "Post Code"
+msgstr "Postleitzahl"
+
+#: includes/privacy-functions.php:245
+msgid "Enquiry & Customer Record"
+msgstr "Anfrage & Kundendatensatz"
+
+#: includes/templates/order-form-template.php:138
+#: public/class-wp-travel-engine-public.php:274
+msgid "Start Date: "
+msgstr "Startdatum:"
+
+#: includes/templates/order-form-template.php:139
+#: public/class-wp-travel-engine-public.php:275
+msgid "Trip Price: "
+msgstr "Reisepreis:"
+
+#: includes/templates/order-form-template.php:143
+msgid "Group Discount Price Per Person: "
+msgstr "Gruppenrabatt pro Person:"
+
+#: includes/templates/order-form-template.php:154
+#: public/class-wp-travel-engine-public.php:287
+msgid "Duration: "
+msgstr "Dauer:"
+
+#: includes/templates/order-form-template.php:159
+msgid "Total Remaining Payment"
+msgstr "Gesamte Restzahlung"
+
+#: includes/templates/order-form-template.php:160
+msgid "Deposit Payable Now:  "
+msgstr "Jetzt zu bezahlen:"
+
+#: includes/templates/order-form-template.php:177
+msgid "Total Traveler(s)"
+msgstr "Gesamtzahl der Reisenden"
+
+#: includes/templates/order-form-template.php:178
+msgid "Total Price"
+msgstr "Gesamtpreis"
+
+#: includes/templates/order-form-template.php:219
+msgid "Billing Details: "
+msgstr "Rechnungsdetails"
+
+#: includes/templates/order-form-template.php:302
+msgid ""
+"Check the box to confirm you've read and agree to our <a href=\"%1$s\" id="
+"\"contact\" target=\"_blank\"> Terms and Conditions</a> and <a href=\"%2$s\" "
+"id=\"contact\" target=\"_blank\">Privacy Policy</a>."
+msgstr ""
+"Ich habe die <a href=\"%1$s\" id=\"contact\" target=\"_blank\">AGBs</a> und "
+"<a href=\"%2$s\" id=\"contact\" target=\"_blank\">Datenschutzbestimmungen</"
+"a> gelesen und akzeptiere diese."
+
+#: includes/templates/taxonomy-activities.php:229
+#: includes/templates/taxonomy-activities.php:431
+#: includes/templates/taxonomy-activities.php:652
+#: includes/templates/taxonomy-destination.php:280
+#: includes/templates/taxonomy-destination.php:482
+#: includes/templates/taxonomy-destination.php:687
+#: includes/templates/taxonomy-trip_types.php:230
+#: includes/templates/taxonomy-trip_types.php:429
+#: includes/templates/taxonomy-trip_types.php:650
+msgid "Load More Trips"
+msgstr "Weitere Reisen laden"
+
+#: includes/templates/taxonomy-destination.php:254
+#: includes/templates/taxonomy-destination.php:456
+#: includes/templates/taxonomy-destination.php:661
+#: includes/templates/taxonomy-trip_types.php:202
+#: includes/templates/taxonomy-trip_types.php:402
+#: includes/templates/taxonomy-trip_types.php:622
+msgid "sold out"
+msgstr "ausverkauft"
+
+#: plugin-updater.php:19
+msgid "Plugin License Options"
+msgstr "Plugin Lizenz Optionen"
+
+#: plugin-updater.php:28
+msgid "Premium Extensions not Found!"
+msgstr "Premium-Erweiterungen nicht gefunden!"
+
+#: plugin-updater.php:36
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: plugin-updater.php:40
+msgid "Enter your license key for "
+msgstr "Geben Sie Ihren Lizenz-Schlüssel ein"
+
+#: plugin-updater.php:46 plugin-updater.php:56
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: plugin-updater.php:50
+msgid "You license key has been activated."
+msgstr "Ihr Lizenzschlüssel wurde aktiviert."
+
+#: plugin-updater.php:52
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: plugin-updater.php:54
+msgid "Please activate your license."
+msgstr "Bitte aktivieren Sie Ihre Lizenz."
+
+#: plugin-updater.php:71
+msgid "Get Now"
+msgstr "Jetzt kaufen"
+
+#: plugin-updater.php:192 plugin-updater.php:238
+msgid "An error occurred, please try again."
+msgstr "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut."
+
+#: plugin-updater.php:205
+msgid "Your license key expired on %s."
+msgstr "Ihr Lizenzschlüssel ist am %s abgelaufen."
+
+#: plugin-updater.php:212
+msgid "Your license key has been disabled."
+msgstr "Ihr Lizenzschlüssel wurde deaktiviert."
+
+#: plugin-updater.php:217
+msgid "Invalid license."
+msgstr "Lizenz ist ungültig."
+
+#: plugin-updater.php:223
+msgid "Your license is not active for this URL."
+msgstr "Ihre Lizenz ist für diese URL nicht aktiv."
+
+#: plugin-updater.php:228
+msgid "This appears to be an invalid license key for %s."
+msgstr "Das scheint ein ungültiger Lizenzschlüssel für %s zu sein."
+
+#: plugin-updater.php:233
+msgid "Your license key has reached its activation limit."
+msgstr "Ihr Lizenzschlüssel hat sein Aktivierungslimit erreicht."
+
+#: plugin-updater.php:419
+msgid ""
+"You have invalid or expired license keys for WP Travel Engine. Please go to "
+"the <a href=\"%s\">Licenses page</a> to correct this issue."
+msgstr ""
+"Sie haben ungültig oder abgelaufen Lizenzschlüssel für WP Travel Engine. "
+"Bitte gehen Sie zur <a href=\"%s\">Seite \"Lizenzen\"</a> , um dieses "
+"Problem zu beheben."
+
+#: plugin-updater.php:562
+msgid ""
+"There is a new version of %1$s available. Download and replace the older "
+"version. %2$sGet it Now%3$s"
+msgstr ""
+"Es gibt eine neue Version von%1$s. Laden Sie die neuere Version herunter und "
+"ersetzen Sie die alte. %2$sHolen Sie sie jetzt%3$s"
+
+#: public/class-wp-travel-engine-public.php:105
+msgid "Cart sucessfully updated!"
+msgstr "Warenkorb erfolgreich aktualisiert!"
+
+#: public/class-wp-travel-engine-public.php:106
+msgid "Cart update failed!"
+msgstr "Aktualisierung fehlgeschlagen!"
+
+#: public/class-wp-travel-engine-public.php:184
+msgid "Already added to cart!"
+msgstr "Bereits in den Warenkorb gelegt!"
+
+#: public/class-wp-travel-engine-public.php:192
+msgid "Added to cart successfully!"
+msgstr "Zum Warenkorb hinzugefügt!"
+
+#: public/class-wp-travel-engine-public.php:196
+msgid "Unable to add to cart!"
+msgstr "Kann dem Warenkorb nicht zugefügt werden!"
+
+#: public/class-wp-travel-engine-public.php:224
+msgid "Select Payment Method"
+msgstr "Bitte Zahlungsweise auswählen:"
+
+#: public/class-wp-travel-engine-public.php:234
+msgid "Please choose a gateway"
+msgstr "Wählen Sie einen Zahlungsdienstleister"
+
+#: public/class-wp-travel-engine-public.php:259
+msgid "Trips:"
+msgstr "Reisen:"
+
+#: public/class-wp-travel-engine-public.php:290
+msgid "Total: "
+msgstr "Gesamt: "
+
+#: public/class-wp-travel-engine-public.php:307
+msgid "Update cart"
+msgstr "Warenkorb  aktualisieren"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-travel-engine/"
+msgstr "https://wordpress.org/plugins/wp-travel-engine/"
+
+#. Description of the plugin/theme
+msgid ""
+"WP Travel Engine is a free travel booking WordPress plugin to create travel "
+"and tour packages for tour operators and travel agencies. It is a complete "
+"travel management system and includes plenty of useful features. You can "
+"create your travel booking website using WP Travel Engine in less than 5 "
+"minutes."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wptravelengine.com/"
+msgstr "https://wptravelengine.com/"
+
+#: admin/class-wp-travel-engine-admin.php:146
+msgctxt "post type general name"
+msgid "Trips"
+msgstr "Reisen"
+
+#: admin/class-wp-travel-engine-admin.php:190
+msgctxt "post type general name"
+msgid "Enquiries"
+msgstr "Anfragen"
+
+#: admin/class-wp-travel-engine-admin.php:237
+msgctxt "post type general name"
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: admin/class-wp-travel-engine-admin.php:285
+msgctxt "post type general name"
+msgid "Customers"
+msgstr "Kunden"
+
+#: admin/class-wp-travel-engine-admin.php:147
+msgctxt "post type singular name"
+msgid "Trip"
+msgstr "Reise"
+
+#: admin/class-wp-travel-engine-admin.php:191
+msgctxt "post type singular name"
+msgid "Enquiry"
+msgstr "Anfrage"
+
+#: admin/class-wp-travel-engine-admin.php:238
+msgctxt "post type singular name"
+msgid "Booking"
+msgstr "Buchung"
+
+#: admin/class-wp-travel-engine-admin.php:286
+msgctxt "post type singular name"
+msgid "Customer"
+msgstr "Kunde"
+
+#: admin/class-wp-travel-engine-admin.php:148
+msgctxt "admin menu"
+msgid "Trips"
+msgstr "Reisen"
+
+#: admin/class-wp-travel-engine-admin.php:192
+msgctxt "admin menu"
+msgid "Enquiries"
+msgstr "Anfragen"
+
+#: admin/class-wp-travel-engine-admin.php:239
+msgctxt "admin menu"
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: admin/class-wp-travel-engine-admin.php:287
+msgctxt "admin menu"
+msgid "Customers"
+msgstr "Kunden"
+
+#: admin/class-wp-travel-engine-admin.php:149
+msgctxt "add new on admin bar"
+msgid "Trip"
+msgstr "Reise"
+
+#: admin/class-wp-travel-engine-admin.php:193
+msgctxt "add new on admin bar"
+msgid "Enquiry"
+msgstr "Anfrage"
+
+#: admin/class-wp-travel-engine-admin.php:240
+msgctxt "add new on admin bar"
+msgid "Booking"
+msgstr "Buchung"
+
+#: admin/class-wp-travel-engine-admin.php:288
+msgctxt "add new on admin bar"
+msgid "Customer"
+msgstr "Kunde"
+
+#: admin/class-wp-travel-engine-admin.php:150
+msgctxt "Trip"
+msgid "Add New"
+msgstr "Neue hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:194
+msgctxt "Enquiry"
+msgid "Add New"
+msgstr "Neue hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:241
+msgctxt "Booking"
+msgid "Add New"
+msgstr "Neue hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:289
+msgctxt "Customer"
+msgid "Add New"
+msgstr "Neue hinzufügen"
+
+#: admin/class-wp-travel-engine-admin.php:544
+msgctxt "taxonomy general name"
+msgid "Destinations"
+msgstr "Reiseziele"
+
+#: admin/class-wp-travel-engine-admin.php:577
+msgctxt "taxonomy general name"
+msgid "Activities"
+msgstr "Aktivitäten"
+
+#: admin/class-wp-travel-engine-admin.php:611
+msgctxt "taxonomy general name"
+msgid "Trip Type"
+msgstr "Reiseart"
+
+#: admin/class-wp-travel-engine-admin.php:545
+msgctxt "taxonomy singular name"
+msgid "Destinations"
+msgstr "Reiseziele"
+
+#: admin/class-wp-travel-engine-admin.php:578
+msgctxt "taxonomy singular name"
+msgid "Activities"
+msgstr "Aktivitäten"
+
+#: admin/class-wp-travel-engine-admin.php:612
+msgctxt "taxonomy singular name"
+msgid "Trip Type"
+msgstr "Reiseart"
+
+#: includes/class-wp-travel-engine-archive-hooks.php:168
+#: includes/templates/taxonomy-activities.php:152
+#: includes/templates/taxonomy-activities.php:353
+#: includes/templates/taxonomy-activities.php:575
+#: includes/templates/taxonomy-destination.php:203
+#: includes/templates/taxonomy-destination.php:405
+#: includes/templates/taxonomy-destination.php:610
+#: includes/templates/taxonomy-trip_types.php:151
+#: includes/templates/taxonomy-trip_types.php:351
+#: includes/templates/taxonomy-trip_types.php:572
+#: includes/templates/template-trip-listing.php:126
+#: public/class-wp-travel-engine-public.php:578
+#: public/class-wp-travel-engine-public.php:852
+msgctxt "reviews count"
+msgid "review"
+msgid_plural "reviews"
+msgstr[0] "Bewertung"
+msgstr[1] "Bewertungen"

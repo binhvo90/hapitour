@@ -1,0 +1,80 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.wpte-trip-feat-img-gallery{
+	position: relative;
+}
+
+.wpte-trip-feat-img-gallery .owl-prev{
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	width: 60px;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 1;
+	font-size: 0;
+}
+
+.wpte-trip-feat-img-gallery .owl-prev:before{
+	content: '\f0d9';
+	font-family: 'FontAwesome';
+	opacity: 1;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+.wpte-trip-feat-img-gallery .owl-next{
+	position: absolute;
+	top: 50%;
+	right: 40px;
+	width: 60px;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 1;
+	font-size: 0;
+}
+
+.wpte-trip-feat-img-gallery .owl-next:after{
+	content: '\f0da';
+	font-family: 'FontAwesome';
+	opacity: 1;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 767px){
+	.wpte-trip-feat-img-gallery .owl-prev{
+		width: 40px;
+		height: 40px;
+		left: 10px;
+	}
+
+	.wpte-trip-feat-img-gallery .owl-next{
+		width: 40px;
+		height: 40px;
+		right: 10px;
+	}
+}

@@ -1,0 +1,1413 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+/*
+
+/*-----------------------------
+custom css
+-----------------------------*/
+*{
+    box-sizing: border-box;
+}
+
+.place-order-form-primary-wrapper {
+    margin-bottom: 15px;
+}
+
+
+/*============================
+ trip detail tab style
+=============================*/
+
+#tabs-container {
+    margin-top: 30px;
+}
+
+#tabs-container .tab-inner-wrapper:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#tabs-container .tab-inner-wrapper .tab-anchor-wrapper {
+    float: left;
+    border: 1px solid #ccc;
+    background: #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+#tabs-container .tab-inner-wrapper .tab-anchor-wrapper a {
+    display: block;
+    padding: 5px 10px;
+    color: #636363;
+    text-decoration: none;
+}
+
+#tabs-container .tab-inner-wrapper .tab-anchor-wrapper a:focus,
+#tabs-container .tab-inner-wrapper .tab-anchor-wrapper a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+#tabs-container .tab-inner-wrapper .nav-tab-active {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    z-index: 5;
+}
+
+#tabs-container .tab-content {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: -7px;
+    position: relative;
+    z-index: 1;
+}
+
+/*=================================
+ secondary style
+================================*/
+
+.trip-content-area .widget-area .secondary-trip-info {
+    margin: 0 0 30px;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder {
+    padding: 30px;
+    text-align: center;
+    background: #e5e5e5;
+    position: relative;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder .top-price-holder {
+    margin: 0 0 20px;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder .prev-price,
+.trip-content-area .widget-area .trip-price .price-holder .price {
+    display: block;
+    margin: 0 0 3px;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder form input[type="number"],
+.trip-content-area .widget-area .trip-price .price-holder form .total-amt {
+    margin: 0 0 20px;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder form input[type="number"] {
+    width: 100%;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder form .check-availability {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #4faff0;
+    background: #4faff0;
+    color: #fff;
+    margin: 0 2px 4px;
+    -webkit-transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    transition: linear 0.2s;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder form .check-availability:hover,
+.trip-content-area .widget-area .trip-price .price-holder form .check-availability:focus {
+    background: none;
+    color: #4faff0;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder form .book-submit {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #84c20d;
+    background: #84c20d;
+    color: #fff;
+    margin: 0 2px 4px;
+    -webkit-transition: linear 0.2s;
+    -moz-transition: linear 0.2s;
+    transition: linear 0.2s;
+    display: none;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder form .book-submit:hover,
+.trip-content-area .widget-area .trip-price .price-holder form .book-submit:focus {
+    background: none;
+    color: #84c20d;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder form .date-time-wrapper {
+    margin: 0 0 20px;
+}
+
+.trip-content-area .widget-area .trip-price .price-holder form .date-time-wrapper input[type="text"] {
+    border: 0;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+
+.wp-travel-engine-billing-details,
+.wp-travel-engine-relation-details-wrapper {
+    margin-bottom: 30px;
+}
+
+.wp-travel-engine-billing-details-wrapper,
+.wp-travel-engine-personal-details-inner-wrapper,
+.wp-travel-engine-relation-details-inner-wrapper {
+    margin: 0 -10px;
+    overflow: hidden;
+}
+
+.wp-travel-engine-billing-details-field-wrap,
+.wp-travel-engine-personal-details,
+.wp-travel-engine-relation-details {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 18px;
+    min-height: 74px;
+}
+
+.relation-options-title,
+.personal-options-title,
+.personal-options-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 17px;
+    background: #EEEEEE;
+    padding: 10px 14px;
+    border-radius: 2px;
+}
+
+.place-order-form-primary-wrapper input,
+.place-order-form-primary-wrapper select {
+    width: 100%;
+    min-height: 34px;
+    padding: 4px 10px !important;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+/*===============================
+ billing details css
+==============================*/
+
+.place-order-form-secondary-wrapper {
+    margin-bottom: 30px;
+}
+
+.place-order-form-secondary-wrapper .wp-travel-engine-order-left-column {
+    float: left;
+    margin-right: 15px;
+    width: 25%;
+}
+
+.place-order-form-secondary-wrapper .wp-travel-engine-order-right-column,
+.wp-travel-engine-order-form-wrapper {
+    overflow: hidden;
+}
+
+.place-order-form-secondary-wrapper .trip-title {
+    margin-bottom: 8px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.place-order-form-secondary-wrapper .trip-property {
+    margin: 0;
+    padding: 0;
+}
+
+.place-order-form-secondary-wrapper .trip-property li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.place-order-form-secondary-wrapper .trip-property li span {
+    display: inline-block;
+    width: 30%;
+    margin-right: 5px;
+}
+
+.wp-travel-engine-order-form-wrapper {
+    overflow: hidden;
+    background: none;
+    padding: 30px 30px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+.wp-travel-engine-order-form-wrapper .trip-title {
+    margin-bottom: 12px !important;
+}
+
+.secondary-inner-wrapper {
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: #ccc;
+    padding: 10px 0;
+}
+
+#primary .page .entry-content .secondary-inner-wrapper table,
+#primary .page .entry-content .secondary-inner-wrapper table td {
+    border: 0;
+}
+
+#primary .page .entry-content .secondary-inner-wrapper table th {
+    background: none;
+}
+
+.secondary-inner-wrapper table {
+    margin-bottom: 0;
+}
+
+.secondary-inner-wrapper .person-price-table {
+    text-align: center;
+}
+
+.hidden-price {
+    display: none;
+}
+
+.date-time-wrapper {
+    position: relative;
+    background: #fff;
+    display: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.date-time-wrapper:after {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+    content: "\f073";
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'FontAwesome';
+    color: #a0a5aa;
+}
+
+.price-fixed {
+    top: 0;
+    position: fixed;
+    z-index: 50;
+    display: block;
+    width: 328px !important;
+}
+
+.open.side-btn,
+.close.side-btn {
+    position: fixed;
+    top: 74%;
+    display: block;
+    background: red;
+    left: 70%;
+}
+
+#open-example1,
+#close-example1 {
+    display: none;
+}
+
+.trip-content-area .secondary-trip-info.side-trip-price {
+    margin-top: 0;
+}
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.disabled:hover {
+    cursor: not-allowed;
+}
+
+
+/*==============================================
+ Datepicker css
+==============================================*/
+
+.ui-datepicker {
+    max-width: 244px;
+}
+
+.ui-datepicker table {
+    font-size: 12px !important;
+    line-height: 15px;
+    text-align: center;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    font-size: 12px !important;
+    line-height: 15px;
+}
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    height: 24px !important;
+}
+
+.wp-travel-engine-archive-outer-wrap:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.archive .wp-travel-engine-archive-wrap {
+    margin-bottom: 40px;
+}
+
+.wp-travel-engine-archive-outer-wrap .child-title {
+    font-weight: 400;
+}
+
+.wp-travel-engine-archive-outer-wrap .child-title a {
+    color: #212121;
+}
+
+.wp-travel-engine-archive-outer-wrap .child-title a:hover {
+    text-decoration: none;
+}
+
+.wp-travel-engine-archive-outer-wrap .wp-travel-engine-archive-wrap {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.wp-travel-engine-archive-outer-wrap .wp-travel-engine-archive-wrap .trip-post-thumbnail {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.wp-travel-engine-archive-wrap .entry-title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #212121;
+}
+
+.wp-travel-engine-archive-wrap .entry-title a {
+    color: #212121;
+}
+
+.wp-travel-engine-archive-wrap .entry-title a:hover {
+    color: #F7921F;
+    text-decoration: none;
+}
+
+.wp-travel-engine-archive-wrap .trip_price,
+.wp-travel-engine-archive-wrap .trip_duration {
+    display: block;
+    margin-bottom: 10px;
+    color: #0d0d0d;
+}
+
+.wp-travel-engine-archive-wrap .trip_price strike span {
+    color: #0d0d0d !important;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#wp-travel-engine-order-form input {
+    padding: 12px 20px;
+}
+
+.place-order-form-primary-wrapper input,
+.place-order-form-primary-wrapper select {
+    padding: 12px 10px !important;
+    border-radius: 3px;
+    height: 50px;
+}
+
+.trip-content .related-posts {
+    margin-top: 40px;
+}
+
+.trip-content .related-posts .post .entry-title {
+    text-align: center;
+    margin-top: -8px;
+}
+
+.trip-content .related-posts .post {
+    margin-bottom: 30px;
+}
+
+.trip-content .related-posts .post .entry-meta {
+    position: relative;
+    top: -31px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.trip-content .related-posts .post .entry-meta span {
+    background: #0C83B8;
+    padding: 7px 14px;
+}
+
+.wp-travel-engine-relation-details input,
+.wp-travel-engine-personal-details input {
+    padding: 12px 10px;
+    width: 100%;
+    height: 53px;
+}
+
+.wp-travel-engine-relation-details select,
+.wp-travel-engine-personal-details select {
+    width: 100%;
+    padding: 12px 10px;
+}
+
+.relation-options-title,
+.personal-options-title,
+.personal-options-title {
+    padding: 20px 14px;
+}
+
+#wp-travel-engine-order-form input[type="submit"] {
+    margin-top: 20px;
+}
+
+#wp-travel-engine-order-form label {
+    display: inline-block;
+    margin-bottom: 6px;
+    margin-right: 5px;
+}
+
+#primary #wp-travel-engine-order-form {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+#primary #wp-travel-engine-order-form table tr {
+    background: none;
+}
+
+
+/*====================================
+ Booking details table
+====================================*/
+
+.entry-content .thank-you-container {
+    margin-top: 30px;
+}
+
+#primary .entry-content .thank-you-container h3 {
+    margin-bottom: 12px !important;
+}
+
+.entry-content .thank-you-container table tr:nth-child(2n+1) {
+    background: #f9f9f9;
+}
+
+.entry-content .thank-you-container table tr:first-child {
+    border-bottom: 0;
+}
+
+.entry-content .thank-you-container table th {
+    padding: 16px 30px;
+    background: #f3f3f3;
+    color: #212121;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.entry-content .thank-you-container table td {
+    padding: 16px 30px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 26px;
+    color: #212121;
+}
+
+.trip-entry-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.trip-entry-content ul li {
+    list-style: none;
+}
+
+#CDSWIDSSP {
+    width: 100% !important;
+}
+
+.wp-travel-engine-archive-outer-wrap .child-title a:hover {
+    color: #F7921F;
+}
+
+.payment-gateway-options {
+    display: none;
+}
+
+.tab_container {
+    display: none;
+}
+
+#price-loading {
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#price-loading-outer {
+    display: table-row;
+}
+
+#price-loading-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#price-loading-wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#price-loader {
+    font-size: 100px;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    background: #fff;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+
+.itinerary-row {
+    list-style: none;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 5px;
+    position: relative;
+}
+
+span.day-count {
+    display: inline-block;
+    position: absolute;
+    left: 9%;
+    top: 7px;
+    color: #555;
+}
+
+.itinerary-content label {
+    width: 115px;
+    float: left;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.faq-row {
+    list-style: none;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 5px;
+    position: relative;
+}
+
+span.faq-count {
+    display: inline-block;
+    position: absolute;
+    left: 9%;
+    top: 7px;
+    color: #555;
+}
+
+.faq-content label {
+    width: 115px;
+    float: left;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.faq-content {
+    padding: 5px 5px 5px 15px;
+}
+
+.faq-title {
+    width: 500px;
+}
+
+span.dashicons.custom-toggle-tabs.rotator {
+    -webkit-transform: rotateX( 180deg);
+    -moz-transform: rotateX( 180deg);
+    -o-transform: rotateX( 180deg);
+    transform: rotateX( 180deg);
+}
+
+
+/*==============================
+ Trips fact style
+===============================*/
+
+.trip-facts-value {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.trip-facts-value li {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 0;
+    flex-grow: 1;
+    padding: 0 15px;
+    margin: 0 0 20px;
+    max-width: 100%;
+    min-width: 230px;
+}
+
+.trip-facts-value li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.trip-facts-value li .fa {
+    align-items: flex-start;
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.trip-facts-value li .trip-facts-text {
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+/*=======================================
+ Itinerary style
+========================================*/
+.itinerary .title{
+    float: left;
+    margin-right: 15px;
+}
+
+.itinerary .itinerary-content{
+    overflow: hidden;
+}
+
+.itinerary .itinerary-content .title{
+    float: none;
+    display: block;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+/*==================================
+ Cost detail style
+==================================*/
+#include-result{
+    margin: 0 0 30px;
+    padding: 0;
+    list-style: none;
+}
+
+#include-result li{
+    margin: 0 0 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#include-result li:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    color: #43a32d;
+}
+
+#exclude-result{
+    margin: 0 0 30px;
+    padding: 0;
+    list-style: none;
+}
+
+#exclude-result li{
+    margin: 0 0 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#exclude-result li:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '\f00d';
+    font-family: 'FontAwesome';
+    color: #d80808;
+}
+
+/*==============================
+ Faq style
+=============================*/
+.faq .faq-row .accordion-tabs-toggle{
+	display: block;
+	border: 1px solid #ccc;
+	position: relative;
+	padding: 5px 30px;
+    text-decoration: none;
+}
+
+.faq .faq-row .accordion-tabs-toggle .custom-toggle-tabs{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	font-size: 0;
+}
+
+.faq .faq-row .accordion-tabs-toggle .custom-toggle-tabs:before{
+	position: absolute;
+	top: 3px;
+	left: 11px;
+	width: 2px;
+	height: 12px;
+	background: #000;
+	content: '';
+}
+
+.faq .faq-row .accordion-tabs-toggle .custom-toggle-tabs.open:before{
+	display: none;
+}
+
+.faq .faq-row .accordion-tabs-toggle .custom-toggle-tabs:after{
+	position: absolute;
+	top: 8px;
+	left: 6px;
+	height: 2px;
+	width: 12px;
+	background: #000;
+	content: '';
+}
+
+.faq .faq-row .faq-content{
+	padding: 5px 30px;
+}
+
+.faq .expand-all-faq{
+	display: inline-block;
+	margin: 0 0 15px;
+	text-decoration: none;
+}
+
+.faq .expand-all-faq .fa{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+/*================================
+ Destination Page style
+===============================*/
+.page-template-template-destination .destination-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.page-template-template-destination .destination-holder .item{
+    width: 25%;
+    padding: 0 15px;
+    margin: 0 0 30px;
+}
+
+.archive .trip-content-area .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 50px;
+}
+
+.archive .trip-content-area .grid .col{
+    width: 33.333%;
+    padding: 0 15px;
+    margin: 0 0 30px;
+}
+
+.archive .trip-content-area .grid .col .img-holder a{
+    display: block;
+}
+
+.archive .trip-content-area .grid .col .group-discount{
+    display: block;
+}
+
+.archive .trip-content-area .grid .col .review-wrap{
+    background: none;
+    padding: 0;
+}
+
+.archive .trip-content-area .grid .col .review-wrap .average-rating{
+    border: 0;
+}
+
+.archive .trip-content-area .grid .col .next-trip-info .next-departure-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*==================================================
+ Activities and trip type page style
+==================================================*/
+.page-template-template-activities .activities-holder,
+.page-template-template-trip_types .trip_types-holder {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.page-template-template-activities .activities-holder .item,
+.page-template-template-trip_types .trip_types-holder .item{
+    width: 25%;
+    padding: 0 15px;
+    margin: 0 0 30px;
+}
+
+.page-template-template-activities .activities-holder .item .img-holder,
+.page-template-template-trip_types .trip_types-holder .item .img-holder{
+    position: relative;
+    overflow: hidden;
+}
+
+.page-template-template-activities .activities-holder .item .img-holder .title-holder,
+.page-template-template-trip_types .trip_types-holder .item .img-holder .title-holder{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 50px 10px 10px 10px;
+    color: #fff;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+100&0+0,0.1+50,0.4+100 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.4) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 50%,rgba(0,0,0,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 50%,rgba(0,0,0,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#66000000',GradientType=0 ); /* IE6-9 */
+}
+
+.page-template-template-activities .activities-holder .item .img-holder:hover .title-holder,
+.page-template-template-trip_types .trip_types-holder .item .img-holder:hover .title-holder,
+.page-template-template-activities .activities-holder .item .img-holder:focus .title-holder,
+.page-template-template-trip_types .trip_types-holder .item .img-holder:focus .title-holder{
+    opacity: 0;
+}
+
+.page-template-template-activities .activities-holder .item .img-holder .text-holder,
+.page-template-template-trip_types .trip_types-holder .item .img-holder .text-holder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.page-template-template-activities .activities-holder .item .img-holder:hover .text-holder,
+.page-template-template-trip_types .trip_types-holder .item .img-holder:hover .text-holder,
+.page-template-template-activities .activities-holder .item .img-holder:focus .text-holder,
+.page-template-template-trip_types .trip_types-holder .item .img-holder:focus .text-holder{
+    opacity: 1;
+}
+
+.archive .trip-content-area .grid .btn-loadmore{
+    text-align: center;
+    width: 100%;
+}
+
+.archive .trip-content-area .grid .btn-loadmore span {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffaf46;
+    border: 2px solid #ffaf46;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+.archive .trip-content-area .grid .btn-loadmore span:hover,
+.archive .trip-content-area .grid .btn-loadmore span:focus{
+    background: none;
+    color: #ffaf46;
+}
+
+.payment-options-holder {
+    margin-bottom: 20px;
+}
+
+select#wte_payment_options {
+    margin-bottom: 30px;
+}
+
+.error {
+    display: none;
+    background-color: #f2dede;
+    border: 1px solid #a94442;
+    padding: 5px 10px;
+    color: #a94442;
+    border-radius: 5px;
+}
+
+.successful {
+    display: none;
+    color: #32B67A;
+    background: #dcf5de;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #32B67A;
+}
+
+.place-order-form-primary-wrapper{
+    position: relative;
+}
+
+#primary #wp-travel-engine-order-form{position: relative;}
+#price-loader{
+    font-size: 100px;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#price-loader table,
+#price-loader table-row,
+#price-loader table-cell{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#price-loader .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*============================
+ Single Trip
+============================*/
+.trip-content-area{
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row{
+    margin: 0 -15px;
+}
+
+.row:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.single-trip #primary{
+    float: left;
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 65px;
+    margin: 0; 
+}
+
+.single-trip #secondary{
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+}
+
+/*==================================
+ Single trip enquiry form
+====================================*/
+.single-trip #wte_enquiry_contact_form{
+    background: #f6f6f6;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-right: -10px;  
+}
+
+.single-trip #wte_enquiry_contact_form .row-repeater{
+    width: 50%;
+    padding: 0 10px;
+    margin: 0 0 20px;
+}
+
+.single-trip #wte_enquiry_contact_form h2,
+.single-trip #wte_enquiry_contact_form .package-name-holder,
+.single-trip #wte_enquiry_contact_form .msg-holder,
+.single-trip #wte_enquiry_contact_form .confirm-holder,
+.single-trip #wte_enquiry_contact_form .submit,
+.single-trip #wte_enquiry_contact_form .confirm-msg{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.single-trip #wte_enquiry_contact_form h2{
+    font-size: 22px;
+    line-height: 1.272em;
+    font-weight: 500;
+    color: #111;
+    margin: 0 0 0;
+}
+
+.single-trip #wte_enquiry_contact_form label{display: none;}
+
+.single-trip #wte_enquiry_contact_form input[type="text"],
+.single-trip #wte_enquiry_contact_form input[type="email"],
+.single-trip #wte_enquiry_contact_form input[type="url"],
+.single-trip #wte_enquiry_contact_form input[type="password"],
+.single-trip #wte_enquiry_contact_form input[type="search"],
+.single-trip #wte_enquiry_contact_form input[type="number"],
+.single-trip #wte_enquiry_contact_form input[type="tel"],
+.single-trip #wte_enquiry_contact_form input[type="range"],
+.single-trip #wte_enquiry_contact_form input[type="date"],
+.single-trip #wte_enquiry_contact_form input[type="month"],
+.single-trip #wte_enquiry_contact_form input[type="week"],
+.single-trip #wte_enquiry_contact_form input[type="time"],
+.single-trip #wte_enquiry_contact_form input[type="datetime"],
+.single-trip #wte_enquiry_contact_form input[type="datetime-local"],
+.single-trip #wte_enquiry_contact_form input[type="color"],
+.single-trip #wte_enquiry_contact_form textarea,
+.single-trip #wte_enquiry_contact_form select{
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.single-trip #wte_enquiry_contact_form select{height: 100%;}
+
+.single-trip #wte_enquiry_contact_form .package-name-holder label,
+.single-trip #wte_enquiry_contact_form .confirm-holder label{
+    display: inline-block;
+}
+
+.single-trip #wte_enquiry_contact_form .confirm-holder label input{margin-right: 5px;}
+
+.single-trip #wte_enquiry_contact_form .package-name-holder .input{
+    font-weight: 600;
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    background: none;
+    border: 0;
+    pointer-events: none;
+}
+
+.single-trip #wte_enquiry_contact_form .success-msg{color: green;}
+
+.single-trip #wte_enquiry_contact_form .failed-msg{color: red;}
+
+/*===================================
+ Checkout Page style
+===================================*/
+.place-order-form-secondary-wrapper{margin: 0 0 60px;}
+
+.place-order-form-secondary-wrapper .wp-travel-engine-order-form-wrapper{
+    padding: 108px 40px 40px 40px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+
+.place-order-form-secondary-wrapper .wp-travel-engine-order-left-column{
+    width: 350px;
+    margin-right: 40px;
+}
+
+.place-order-form-secondary-wrapper .wp-travel-engine-order-left-column img{vertical-align: top;}
+
+.wp-travel-engine-order-form-wrapper .trip-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 20px !important;
+    line-height: 1.3em !important;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px 40px;
+}
+
+.place-order-form-secondary-wrapper .trip-property li{
+    font-size: 15px;
+    margin: 0 0 15px;
+}
+
+.place-order-form-secondary-wrapper .trip-property .cart-trip-total-price .cart-trip-total-price-holder{
+    width: auto;
+    font-size: 22px;
+    line-height: 1.181em;
+    font-weight: 600;
+    color: #111;
+}
+
+.place-order-form-secondary-wrapper .trip-property li span{width: 35%;}
+
+.place-order-form-secondary-wrapper .trip-property .cart-trip-total-price{
+    border-top: 1px solid #e5e5e5;
+    margin-top: 25px;
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 1.181em;
+    font-weight: 600;
+    color: #111;
+}
+
+.place-order-form-secondary-wrapper .trip-property .cart-trip-total-price span{
+    font-size: 18px;
+    line-height: 1.444em;
+    font-weight: 500;
+    color: #666;
+}
+
+.relation-options-title,
+.personal-options-title,
+#primary .page .entry-content .payment-method h3{
+    font-size: 22px;
+    line-height: 1.272em;
+    font-weight: 500;
+    color: #111;
+    margin: 0 0 35px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    padding: 20px 14px;
+}
+
+.relation-options-title:after,
+.personal-options-title:after{display: none;}
+
+.wp-travel-engine-billing-details-wrapper,
+.wp-travel-engine-personal-details-inner-wrapper,
+.wp-travel-engine-relation-details-inner-wrapper{
+    margin: 0 -15px;
+}
+
+.wp-travel-engine-billing-details-field-wrap,
+.wp-travel-engine-personal-details,
+.wp-travel-engine-relation-details{
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.wp-travel-engine-billing-details-field-wrap:last-child{margin-bottom: 0;}
+
+#wp-travel-engine-order-form label{
+    font-size: 14px;
+    line-height: 1.714em;
+}
+
+#wp-travel-engine-order-form input[type="submit"]{
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.wp-travel-engine-relation-details select,
+.wp-travel-engine-personal-details select{padding: 15px 10px;}
+
+.secondary-inner-wrapper{
+    padding: 0;
+    background: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 0 0 5px 5px;
+    margin-top: -1px;
+}
+
+.secondary-inner-wrapper table thead{
+    background: none !important;
+}
+
+.trip-content-area .wp-travel-engine-archive-repeater-wrap{
+   margin: 0 -15px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.single-trip .trip-content-area .widget-area .trip-price .price-holder form .book-submit{
+    display: none;
+}
+
+/*================================
+ responsive
+===============================*/
+
+@media only screen and (max-width: 1199px) {
+    #tabs-container .tab-inner-wrapper .tab-anchor-wrapper a {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .trip-content-area{
+        max-width: 720px;
+    }
+
+    .single-trip #primary{
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 0 60px;
+    }
+
+    .single-trip #secondary{
+        width: 100%;
+    }
+
+    .page-template-template-destination .destination-holder .item{
+        width: 33.3333%;
+    }
+
+    .archive .trip-content-area .grid .col{
+        width: 50%;
+    }
+
+    .wp-travel-engine-archive-outer-wrap .wp-travel-engine-archive-wrap{
+        width: 50%;   
+    }
+
+    .page-template-template-activities .activities-holder .item,
+    .page-template-template-trip_types .trip_types-holder .item{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .wp-travel-engine-billing-details-field-wrap,
+    .wp-travel-engine-personal-details,
+    .wp-travel-engine-relation-details {
+        width: 100%;
+    }
+
+    #tabs-container .tab-inner-wrapper .tab-anchor-wrapper {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #tabs-container .tab-inner-wrapper .tab-anchor-wrapper a {
+        position: relative;
+    }
+
+    #tabs-container .tab-inner-wrapper .tab-anchor-wrapper a:after {
+        position: absolute;
+        top: 7px;
+        right: 10px;
+        content: '\f0d7';
+        font-family: 'FontAwesome';
+        -webkit-transition: linear 0.2s;
+        -moz-transition: linear 0.2s;
+        transition: linear 0.2s;
+    }
+
+    #tabs-container .tab-inner-wrapper .nav-tab-active a:after {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+
+    .wp-travel-engine-archive-outer-wrap .wp-travel-engine-archive-wrap{
+       width: 100%;
+       margin: 0 0 50px;
+   }
+
+    .page-template-template-destination .destination-holder .item{
+        width: 50%;
+    }
+
+    .archive .trip-content-area .grid .col{
+        width: 100%;
+    }
+
+    .archive .trip-content-area .wp-travel-inner-wrapper .grid .col .img-holder img{width: 100%;}
+
+    .page-template-template-activities .activities-holder .item,
+    .page-template-template-trip_types .trip_types-holder .item{
+        width: 100%;
+    }
+
+    .single-trip #wte_enquiry_contact_form .row-repeater{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+
+   .page-template-template-destination .destination-holder .item{
+        width: 100%;
+    }
+
+    .page-template-template-destination .destination-holder .item img{
+        width: 100%;
+    }
+
+}

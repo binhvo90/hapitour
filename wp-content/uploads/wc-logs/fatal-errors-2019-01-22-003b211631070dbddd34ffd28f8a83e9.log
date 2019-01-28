@@ -1,0 +1,4 @@
+2019-01-22T15:04:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\hapitour\wp-admin\includes\class-wp-filesystem-direct.php on line 62
+
+2019-01-22T15:20:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\hapitour\wp-content\plugins\wp-travel-engine\public\class-wp-travel-engine-public.php on line 173
+

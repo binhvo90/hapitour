@@ -1,0 +1,6 @@
+2019-01-15T16:28:38+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\hapitour\wp-admin\includes\class-wp-filesystem-direct.php on line 76
+
+2019-01-15T16:37:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\hapitour\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-01-15T16:37:51+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\hapitour\wp-admin\includes\class-wp-filesystem-direct.php on line 76
+

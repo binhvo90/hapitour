@@ -1,0 +1,945 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+@font-face {
+ font-family: 'FontAwesome';
+ src: url('fonts/fontawesome-webfont.eot?p1idqp');
+ src: url('fonts/fontawesome-webfont.eot?p1idqp#iefix') format('embedded-opentype'),
+      url('fonts/fontawesome-webfont.ttf?p1idqp') format('truetype'),
+      url('fonts/fontawesome-webfont.woff?p1idqp') format('woff'),
+      url('fonts/fontawesome-webfont.svg?p1idqp#cbl-bullets') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+/*=========================================
+ Trip pricing tab style
+=========================================*/
+#trip_pricing_id .inside{
+    padding: 0;
+    margin: 0;
+}
+
+#trip_pricing_id .tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#trip_pricing_id .tabs .ui-tabs-nav{
+    margin: 0;
+    width: 20%;
+    /*float: left;*/
+    line-height: 1em;
+    padding: 0;
+    position: relative;
+    background-color: #fafafa;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+#trip_pricing_id .tabs .ui-tabs-nav li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+#trip_pricing_id .tabs .ui-tabs-nav li a{
+    margin: 0;
+    padding: 10px;
+    display: block;
+    box-shadow: none;
+    text-decoration: none;
+    line-height: 20px !important;
+    border-bottom: 1px solid #eee;
+}
+
+#trip_pricing_id .tabs .ui-tabs-nav .ui-tabs-active a{
+    background: #eee;
+    color: #555;
+}
+
+#trip_pricing_id .tabs .ui-tabs-panel{
+    overflow: hidden;
+    /*float: left;*/
+    width: 80%;
+    min-height: 175px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: #555;
+}
+
+#trip_pricing_id .tabs .ui-tabs-panel label{
+    float: left;
+    width: 185px;
+}
+
+#trip-info .settings-note{
+    font-style: italic;
+    margin: 0 0 15px;
+}
+
+#trip-info .trip-info-list{position: relative;}
+
+#trip-info .trip-info-list #loader{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 40px;
+    z-index: 1;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#trip-info .trip-info-list #loader .table{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+#trip-info .trip-info-list #loader .table-row{
+    display: table-row;
+    height: 100%;
+}
+
+#trip-info .trip-info-list #loader .table-cell{
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#trip-info .trip-info-list li{
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    padding: 10px 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#trip-info .trip-info-list li:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#trip-info .trip-info-list li .del-li{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 0;
+    text-decoration: none;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#trip-info .trip-info-list li .del-li:after{
+    content: '\f057';
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color: #d54e21;
+    vertical-align: top;
+}
+
+#trip-info .trip-info-list li .handle{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#trip-info .trip-info-list li .handle:after{
+    content: '\f047';
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color: #111;
+    vertical-align: top;
+}
+
+#trip-info .trip-info-list li svg{
+    float: left;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    width: 25px;
+}
+
+#trip-info .trip-info-list li label{
+    margin: 0;
+    width: 120px !important;
+}
+
+#trip-info .trip-info-list li input[type="text"],
+#trip-info .trip-info-list li input[type="search"],
+#trip-info .trip-info-list li input[type="tel"],
+#trip-info .trip-info-list li input[type="time"],
+#trip-info .trip-info-list li input[type="url"],
+#trip-info .trip-info-list li input[type="week"],
+#trip-info .trip-info-list li input[type="password"],
+#trip-info .trip-info-list li input[type="checkbox"],
+#trip-info .trip-info-list li input[type="color"],
+#trip-info .trip-info-list li input[type="date"],
+#trip-info .trip-info-list li input[type="datetime"],
+#trip-info .trip-info-list li input[type="datetime-local"],
+#trip-info .trip-info-list li input[type="email"],
+#trip-info .trip-info-list li input[type="month"],
+#trip-info .trip-info-list li input[type="number"]{
+    width: 200px;
+}
+
+#trip-info .trip-info-list li textarea{
+    width: 200px;
+    min-height: 30px;
+    height: 30px;
+    resize: vertical;
+}
+
+/*=======================================
+ Trip Tabs style
+=======================================*/
+#trip_tab_id .inside{
+    padding: 0;
+    margin: 0;
+}
+
+#trip_tab_id .inside .settings-note{
+    font-style: italic;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#trip_tab_id .tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#trip_tab_id .tabs .ui-tabs-nav{
+    margin: 0;
+    width: 20%;
+    /*float: left;*/
+    line-height: 1em;
+    padding: 0;
+    position: relative;
+    background-color: #fafafa;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+#trip_tab_id .tabs .ui-tabs-nav li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+
+#trip_tab_id .tabs .ui-tabs-nav li a{
+    margin: 0;
+    padding: 10px;
+    display: block;
+    box-shadow: none;
+    text-decoration: none;
+    line-height: 20px !important;
+    border-bottom: 1px solid #eee;
+}
+
+#trip_tab_id .tabs .ui-tabs-nav .ui-tabs-active a{
+    background: #eee;
+    color: #555;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel{
+    overflow: hidden;
+    /*float: left;*/
+    width: 80%;
+    min-height: 175px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    color: #555;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row{
+    list-style: none;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    padding: 0;
+    position: relative;
+    align-items: center;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .delete-tab,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .delete-tab{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0;
+    text-decoration: none;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .delete-tab:after,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .delete-tab:after{
+    content: '\f057';
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color: #d54e21;
+    vertical-align: top;
+}
+
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .delete-faq,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .delete-faq{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0;
+    text-decoration: none;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .delete-faq:after,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .delete-faq:after{
+    content: '\f057';
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color: #d54e21;
+    vertical-align: top;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .accordion-tabs-toggle,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .accordion-tabs-toggle{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #111;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .accordion-tabs-toggle:focus,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .accordion-tabs-toggle:focus{box-shadow: none;}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .accordion-tabs-toggle .custom-toggle-tabs,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .accordion-tabs-toggle .custom-toggle-tabs{
+    position: relative;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .accordion-tabs-toggle .custom-toggle-tabs:after,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .accordion-tabs-toggle .custom-toggle-tabs:after{
+    position: absolute;
+    top: 9px;
+    left: 2px;
+    width: 12px;
+    height: 2px;
+    background: #000;
+    content: '';
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .accordion-tabs-toggle .custom-toggle-tabs:before,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .accordion-tabs-toggle .custom-toggle-tabs:before{
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    height: 12px;
+    width: 2px;
+    background: #000;
+    content: '';
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .accordion-tabs-toggle .custom-toggle-tabs.open:before,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .accordion-tabs-toggle .custom-toggle-tabs.open:before{
+    display: none;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .itinerary-content,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .faq-content{
+    padding: 10px;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .itinerary-content .title,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .faq-content .title{margin: 0 0 15px;}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .itinerary-content label,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .faq-content label{
+    display: block;
+    margin: 0 0 5px;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .itinerary-content input[type="text"],
+#trip_tab_id .tabs .ui-tabs-panel .itinerary-row .itinerary-content textarea,
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .faq-content input[type="text"],
+#trip_tab_id .tabs .ui-tabs-panel .faq-row .faq-content textarea{
+    width: 100%;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .content textarea{
+    width: 100%;
+}
+
+#trip_tab_id .tabs .ui-tabs-panel .content{margin: 0 0 10px;}
+
+.expand-itinerary{margin: 0 0 15px;}
+
+.expand-all-itinerary{
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+}
+
+.expand-all-itinerary:focus{box-shadow: none;}
+
+.expand-all-itinerary .fa{
+    font-size: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/*===========================================
+ Featured Image Gallery style
+===========================================*/
+#feat-img-gallery-metabox .settings-note{
+    font-style: italic;
+    margin-top: 15px;
+}
+
+#feat-img-gallery-metabox-list:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#feat-img-gallery-metabox-list li{
+    position: relative;
+}
+
+/*========================================
+ Trip Map style
+========================================*/
+#trip_map_id .settings-note{
+    font-style: italic;
+    margin: 0 0 10px;
+}
+
+/*========================================
+ Trips setting page style
+========================================*/
+#tabs-container{padding-left: 15px;}
+
+.tabs-menu{
+    height: 22px;
+    clear: both;
+}
+
+.post-type-trip .tabs-menu {
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 0 -1px;
+}
+
+.post-type-trip .tabs-menu li{
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    margin-right: 6px;
+    font-size: 14px;
+    line-height: 24px;
+    background: #e5e5e5;
+    margin-bottom: -2px;
+}
+
+.post-type-trip .tabs-menu li.current{
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 5;
+}
+
+.post-type-trip .tabs-menu li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.post-type-trip .tabs-menu li a:focus{box-shadow: none;}
+
+.tab{
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.post-type-trip .tab{
+    padding: 10px 0;
+}
+
+.tab-content{
+    width: auto;
+    padding: 0 0 0 10px;
+    display: none;
+}
+
+#general{
+    display: block;
+}
+
+#general .ui-tabs-nav li,
+.tabs-menu li{
+    float: left;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    margin-right: 6px;
+    font-size: 14px;
+    line-height: 24px;
+    background: #e5e5e5;
+}
+
+.tabs-menu .ui-tabs-nav li a,
+.tabs-custom .ui-tabs-nav li a{
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#general .ui-tabs-nav li a,
+.tabs-menu li a{
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#general .ui-tabs-nav li a:focus,
+.tabs-menu li a:focus{box-shadow: none;}
+
+#general .ui-tabs-nav li.ui-tabs-active,
+.tabs-menu li.current{
+    position: relative;
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 5
+}
+
+.wpte-row{
+    padding: 21px 20px 20px 0;
+    width: auto;
+}
+
+.page-settings-inner{
+    margin: 13px 0 0 0;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.from-name,
+.from-email,
+.subject-email,
+.purchase-wpeditor,
+.book-subject,
+.sales-wpeditor,
+.book-note,
+.book-emails,
+.disable-notif,
+.wp_travel_engine_settings_pages{
+    margin: 0 0 10px 0;
+}
+
+.wpte-row label{
+    font-weight: 600;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.wp-admin select {
+    padding: 2px;
+    line-height: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.settings-note {
+    color: #666;
+    font-size: 12px;
+    font-style: italic;
+    margin: 4px 0 0;
+}
+
+.wpte-settings-submit .submit{
+    margin: 0 0 0 10px;
+}
+
+.email-custom ul{display: inline-flex;}
+
+.email-custom ul li{
+    margin: 0 10px 0 0;
+    /*text-transform: capitalize;*/
+    border-left: 1px solid #000;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 12px;
+}
+.email-custom ul.ui-tabs-nav li {
+    text-transform: capitalize;
+}
+.email-custom ul li:first-child{
+    border-left: 0;
+    padding-left: 0;
+}
+
+.email-custom ul li a{text-decoration: none;}
+
+.email-custom ul li.ui-state-active a{
+    color: #000;
+    font-weight: 600;
+}
+
+#emails label{font-weight: 600;}
+
+#misc .wpte-row{padding: 0;}
+
+.wp-travel-engine-captcha{margin: 0 0 20px 0;}
+
+.tabs-inner{
+    margin: 13px 0 0 0;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.trip-row{
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 5px;
+    position: relative;
+    list-style: none;
+}
+
+#trip_tabs_settings .delete-tab{
+    float: right;
+    color: #f00;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 0;
+    position: relative;
+}
+
+#trip_tabs_settings .delete-tab:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '\f057';
+    font-family: 'FontAwesome';
+    color: #d54e21;
+    font-size: 20px;
+}
+
+#trip_tabs_settings a.accordion-tabs-toggle{
+    padding: 18px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    background: #fff;
+}
+
+#trip_tabs_settings a.accordion-tabs-toggle:focus{box-shadow: none;}
+
+#trip_tabs_settings .tabs-span-name{
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #555;
+    font-size: 20px;
+}
+
+#trip_tabs_settings .custom-toggle-tabs{
+    float: right;
+    text-decoration: none;
+    color: #4e4e4e;
+    box-shadow: none;
+    margin: -12px 0 0;
+    opacity: 0.9;
+    -webkit-transition: ease 0.2s;
+    -moz-transition: ease 0.2s;
+    transition: ease 0.2s;
+}
+
+#trip_tabs_settings .custom-toggle-tabs.open{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#trip_tabs_settings .tabs-content{
+    padding: 10px !important;
+}
+
+#trip_tabs_settings .tabs-content:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#trip_tabs_settings .tabs-content .tabs-name{
+    float: left;
+    width: 48%;
+}
+
+#trip_tabs_settings .tabs-content .tabs-icon{
+    float: right;
+    width: 48%;
+}
+
+#trip_tabs_settings .tabs-content .tabs-icon .wp-travel-engine-font-awesome-list{width: 300px;}
+
+#trip_tabs_settings .tabs-accordion .trip-row .tabs-handle{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    
+}
+
+#trip_tabs_settings .tabs-accordion .trip-row .tabs-handle:after{
+    content: '\f047';
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color: #111;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#trip_info .fields-accordion{
+    border: 1px solid #ccc;
+    margin: 14px 0 0;
+}
+
+#trip_info .fields-accordion .trip_facts{
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+
+#trip_info .fields-accordion .trip_facts:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#trip_info .fields-accordion .trip_facts .fid{
+    display: none;
+}
+
+#trip_info .fields-accordion .trip_facts .form-builder{
+    display: flex;
+    justify-content: space-around;
+}
+
+#trip_info .fields-accordion .trip_facts .handle{
+    display: none;
+}
+
+#trip_info .fields-accordion .trip_facts .del-li{
+    position: absolute !important;
+    top: 50%;
+    right: 20px;
+    color: #f00;
+    /*margin: 8px;*/
+    cursor: pointer;
+    font-size: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#trip_info .fields-accordion .trip_facts .del-li:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '\f057';
+    font-family: 'FontAwesome';
+    color: #d54e21;
+    font-size: 20px;
+}
+
+.email-custom .book-note ul{display: block;}
+
+.email-custom .book-note ul li{
+    border-left: 0;
+    padding-left: 0;
+}
+
+#trip_info .fields-accordion .trip_facts .field-icon{position: relative;}
+
+#trip_info .fields-accordion .trip_facts .wp-travel-engine-font-awesome-list{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: #fff;
+}
+ul.rara-font-group {
+    text-align: center;
+    height: 350px;
+    overflow-y: scroll;
+    position: relative;
+    border: 1px solid #EEE;
+    margin: 0;
+}
+.rara-font-group li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.rara-font-group li:hover {
+    color: #2461d4;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.enquiry-row {
+    margin: 10px 0 15px 0;
+}
+
+.enquiry-row label {
+    width: 160px;
+    float: left;
+    font-weight: 500;
+}
+
+.enquiry-row input {
+    width: 250px;
+}
+
+.enquiry-row textarea {
+    width: 251px;
+    height: 100px;
+}
+.itinerary-content-inner{
+    display: none;
+}
+.customer-detail label, .wp-travel-engine-billing-details-field-wrap label, .wp-travel-engine-personal-details label, .wp-travel-engine-relation-details label {
+    width: 125px;
+    font-weight: 500;
+    float: left;
+}
+.wp-travel-engine-billing-details-field-wrap, .wp-travel-engine-personal-details, .wp-travel-engine-relation-details, .customer-detail {
+    margin: 10px 0 10px 0;
+}
+.personal-options-title, .relation-options-title {
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.wp-travel-engine-relation-details-wrapper{
+    margin: 25px 0 0 0;
+}
+.trip-info-meta label {
+    font-weight: 500;
+    width: 136px;
+    float: left;
+    margin: 0 5px 0 0;
+}
+.trip-info-meta input {
+    width: 245px;
+}
+.trip-info-meta div {
+    margin: 0 0 10px 0;
+}
+#stripepay_id label {
+    font-weight: 500;
+    width: 136px;
+    float: left;
+    margin: 0 5px 0 0;
+}
+#stripepay_id input {
+    width: 236px;
+}
+#stripepay_id div {
+    margin: 0 0 10px 0;
+}
+
+.customer-history-wrap {
+    margin:0 -10px;
+    overflow: hidden;
+}
+
+.customer-history-wrap table{
+    width: 50%;
+    padding: 0 10px;
+    float: left;
+    text-align: left;
+}
+
+.customer-history-wrap table td {
+    padding: 5px 0;
+    vertical-align: middle;
+}
+
+table#book-list-table th, table#book-list-table tr{
+    text-align: center;
+}
+
+table#book-list-table td {
+    padding: 10px !important;
+}
+
+#wpte-add-ons .wpte-extension {
+    background: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 14px;
+    position: relative;
+    margin: 0 15px 15px 0;
+    width: 320px;
+    height: 350px;
+}
+#wpte-add-ons .wpte-extension .button-secondary {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+}
+#wpte-add-ons .wpte-extension .wp-post-image {
+    width: 100%;
+    height: auto;
+}
+#wpte-add-ons h2 {
+    margin: 0 0 15px;
+}
+#wpte-add-ons .wpte-extension h3 {
+    font-size: 13px;
+    margin: 0 0 8px;
+}
+div#payment div, div#misc div{
+    margin: 0 0 20px 0;
+}
+.wpte-adons-license{
+    margin: 0 0 0 168px;
+}

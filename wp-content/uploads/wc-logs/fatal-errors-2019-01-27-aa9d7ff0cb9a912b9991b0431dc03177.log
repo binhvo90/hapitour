@@ -1,0 +1,10 @@
+2019-01-27T14:19:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\hapitour\wp-content\themes\BookYourTravel\includes\plugins\widgets\widget-search.php on line 10
+
+2019-01-27T14:52:15+00:00 CRITICAL Uncaught Error: Call to undefined method BookYourTravel_Tour::render_image_gallery() in C:\xampp\htdocs\hapitour\wp-content\themes\BookYourTravel\single-tour.php:86
+Stack trace:
+#0 C:\xampp\htdocs\hapitour\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\hapitour\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hapitour\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\hapitour\wp-content\themes\BookYourTravel\single-tour.php on line 86
+

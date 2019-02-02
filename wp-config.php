@@ -26,7 +26,7 @@ define('DB_NAME', 'hapitour');
 define('DB_USER', 'root');
 
 /** Mật khẩu của database */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '');
 
 /** Hostname của database */
 define('DB_HOST', 'localhost');

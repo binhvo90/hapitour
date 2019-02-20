@@ -1,0 +1,24 @@
+.wrapper{
+    padding: 50px 5%;
+    color: #454545;
+    font-size: 18px;
+}
+.bg-default{
+    background: #5FC8C2 !important;
+}
+.color-default{
+    color: #5FC8C2 !important;
+}
+
+.title{
+    font-size: 4rem;
+    border-bottom: 1px solid #5FC8C2;
+}
+.content-1{
+    background: rgb(255, 255, 255);
+
+}
+.content-2{
+    background: #E9E6E0;
+    padding: 20px;
+}

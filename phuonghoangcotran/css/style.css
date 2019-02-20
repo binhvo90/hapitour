@@ -141,3 +141,32 @@
     width: 905px;
     margin: 70px auto;
 }
+
+#page_template{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#page_template .why{
+    text-align: justify;
+    font-size: 25px;
+
+}
+
+
+#page_template .title{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title-why{
+    font-size: 25px;
+    color: #d75211;
+}
+
+.title-o-1{
+    font-size: 16px;
+    font-weight: bold;
+
+}

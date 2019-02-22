@@ -11,14 +11,14 @@
 }
 
 .title{
-    font-size: 4rem;
+    font-size: 2rem;
     border-bottom: 1px solid #5FC8C2;
 }
-.content-1{
-    background: rgb(255, 255, 255);
-
+.no-border{
+    border: 0 !important;
 }
+
 .content-2{
-    background: #E9E6E0;
+    background: rgb(255, 255, 255);
     padding: 20px;
 }

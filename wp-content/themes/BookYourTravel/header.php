@@ -41,6 +41,13 @@ if (!isset($current_user)) {
 		} 
 	} ?>
 	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>" />
+    <?php if(is_page_template( 'page_template/page_visa.php' )){?>
+        <link href="<?php bloginfo('template_url')?>/css/page_template.css" rel="stylesheet">
+        <link href="<?php bloginfo('template_url')?>/css/bootstrap.min.css" rel="stylesheet">
+    <?php }else if(is_page_template( 'page_template/page_ticker.php' )){?>
+        <link href="<?php bloginfo('template_url')?>/css/page_ticker.css" rel="stylesheet">
+        <link href="<?php bloginfo('template_url')?>/css/bootstrap.min.css" rel="stylesheet">
+    <?php }?>
 	<script type="text/javascript">
 		window.datepickerDateFormat = <?php echo json_encode( $date_picker_date_format ); ?>;
 		window.datepickerAltFormat = <?php echo json_encode( BOOKYOURTRAVEL_ALT_DATE_FORMAT ) ?>;

@@ -1,0 +1,112 @@
+.wrapper{
+    padding: 50px 5%;
+    color: #454545;
+    font-size: 18px;
+}
+.bg-default{
+    background: #5FC8C2 !important;
+}
+.color-default{
+    color: #5FC8C2 !important;
+}
+
+.title{
+    font-size: 4rem;
+    border-bottom: 1px solid #5FC8C2;
+}
+/*.content-1{*/
+    /*background: rgb(255, 255, 255);*/
+
+/*}*/
+.content-2{
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+*,
+.fp-wrapper .fp-popup .fp-input-wrapper input[type=text]:focus {
+    outline: 0
+}
+
+#stepVisa li,
+*,
+.brief li,
+.menuLeft li,
+.nav-service li,
+footer li {
+    list-style: none
+}
+
+
+.mnv-tuvan {
+    padding-top: 0;
+    padding-bottom: 40px
+}
+
+#stepVisa .col-lg-3 {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+#stepVisa .col-lg-3 span {
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    margin-left: -23px;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-weight: 700;
+    border: 1px solid #5FC8C2;
+    color: #5FC8C2;
+    background: #fff
+}
+
+.anchor,
+.anchor .fa,
+.circle {
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%
+}
+
+#stepVisa h3 {
+    margin: 15px 0;
+    font-size: 120%;
+    color: #5FC8C2
+}
+
+#stepVisa .row p {
+    color: #666
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+#stepVisa .col-lg-4 ul {
+    margin: 0;
+    padding: 0
+}
+
+#stepVisa li,
+.brief li {
+    padding: 8px 0;
+    color: #666;
+    border-bottom: 1px solid #5FC8C2
+}
+
+#stepVisa li:before,
+.brief li:before {
+    content: "\f14a ";
+    color: #5FC8C2;
+    margin-right: 10px;
+    font-family: FontAwesome;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 ;
+}

@@ -3109,6 +3109,11 @@ aside .description p {
     overflow: hidden;
 }
 
+#tours.tab-content{
+    width: 100%;
+    display: block !important;
+}
+
 .tab-content article {
     float: left;
     width: 100%;

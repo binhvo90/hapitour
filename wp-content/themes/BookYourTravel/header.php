@@ -44,7 +44,7 @@ if (!isset($current_user)) {
     <?php if(is_page_template( 'page_template/page_visa.php' )){?>
         <link href="<?php bloginfo('template_url')?>/css/page_template.css" rel="stylesheet">
         <link href="<?php bloginfo('template_url')?>/css/bootstrap.min.css" rel="stylesheet">
-    <?php }else if(is_page_template( 'page_template/page_ticker.php' )){?>
+    <?php }else if(is_page_template( 'page_template/page_ticker.php' )||is_page_template( 'page_template/page_driver.php' )){?>
         <link href="<?php bloginfo('template_url')?>/css/page_ticker.css" rel="stylesheet">
         <link href="<?php bloginfo('template_url')?>/css/bootstrap.min.css" rel="stylesheet">
     <?php }?>
